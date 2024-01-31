@@ -1,5 +1,5 @@
 import React from 'react';
-
+import '../../styles/client/navbar.css';
 const ClientNavbar = () => {
     return (
         <div>
