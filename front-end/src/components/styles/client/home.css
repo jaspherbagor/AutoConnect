@@ -20,7 +20,7 @@ html, body {
 
 :root {
     --primary-color: #fa0b0b;
-    --navbar-bg: #333333;
+    --navbar-bg: #e4e2e2;
     --text-color-light: #fff;
     --text-color-dark: #000;
     --grayish-color: #f1f1f1;
@@ -34,11 +34,11 @@ html, body {
 .get-help-btn {
     background:var(--primary-color);
     color: var(--text-color-light);
-    outline: 2px solid var(--navbar-bg)
+    outline: 2px solid var(--text-color-dark)
 }
 
 .get-help-btn:hover {
     background:var(--navbar-bg);
-    color: var(--text-color-light);
+    color: var(--text-color-dark);
     outline: 2px solid var(--primary-color)
 }

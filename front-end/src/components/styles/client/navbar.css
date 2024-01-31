@@ -20,7 +20,7 @@ html, body {
 
 :root {
     --primary-color: #fa0b0b;
-    --navbar-bg: #333333;
+    --navbar-bg: #e4e2e2;
     --text-color-light: #fff;
     --text-color-dark: #000;
     --grayish-color: #f1f1f1;
@@ -29,4 +29,9 @@ html, body {
 
 .navbar-brand {
     height: 60px;
+}
+
+.navbar {
+    background: var(--navbar-bg);
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
 }
