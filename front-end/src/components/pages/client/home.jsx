@@ -10,14 +10,15 @@ const Home = () => {
             <div className="row">
                 <div className="col-md-6 d-flex align-items-center justify-content-center">
                     <div className="container">
-                        <h2 className="fw-bolder">Repairing Autos</h2>
-                        <h5>Always active 24/7</h5>
+                        <h2 className="fw-bolder mb-4">On-Demand Car Repairs, Anytime, Anywhere</h2>
+                        <h5 className="mb-4">Stuck on the Road? We'll Fix It Wherever You Are.</h5>
+                        <a href="">
+                            <button type="button" className="btn btn-success btn-outline-danger fw-semibold py-2 px-3">Get Help Now</button>
+                        </a>
                     </div>
                 </div>
                 <div className="col-md-6 d-flex align-items-center justify-content-center">
-                    <p>This is an image</p>
-                    <img src="" alt="" />
-                    
+                    <img src="../images/hero-image.png" alt="" className="img-fluid" />            
                 </div>
             </div>
         </section>
