@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Major Repairs</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <header>
+        <button class="back-button"  onclick="goBack()">Back</button>
+        <h1>Car Major Repairs</h1>
+        <div></div>
+    </header>
+
+    <main id="main-content">
+        <div class="product-list">
+            <!-- Three product items -->
+            <div class="product">
+                <div class="product-details">
+                    <h2 style="text-align: center;">Car Repair Inspection</h2>
+                    <h3 style="font-size: medium;">For Every 1000 kms / One Month + Free Pickup & Drop</h3>
+                    <p><ul> 
+
+                        <li>60 Point Check</li>
+                        
+                        <li>Test Drive with Customer</li>
+
+                        <li>Engine Scanning</li>
+
+                        <li>Quotation for Repair</li>
+                     
+
+                </div>
+                        <stripe-buy-button
+                        buy-button-id="buy_btn_1OcnDDCQNS3uveyVHnCRSOsI"
+                        publishable-key="pk_test_51Oa7sqCQNS3uveyVh5Fepgo7ysDhf9oAnBr35jkMQh9UrvA4bgaDkhbG2koFBQ7klREGzvUArqVYBWAnojDwXrXW00DadOdA5V"
+                        >
+                        </stripe-buy-button>
+                </div>
+ 
+ 
+        
+
+            <script async
+            src="https://js.stripe.com/v3/buy-button.js">
+            </script>
+
+            <script>
+
+            function goBack() {
+                window.history.back();
+                }
+            </script>
+
+
+</body>
+</html>

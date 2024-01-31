@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battery Replacement</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <header>
+        <button class="back-button"  onclick="goBack()">Back</button>
+        <h1>Battery Replacement</h1>
+        <div></div>
+    </header>
+
+    <main id="main-content">
+        <div class="product-list">
+            <!-- Three product items -->
+            <div class="product">
+                <div class="product-details">
+                    <h2 style="text-align: center;">Amaron (55 Months Warranty)</h2>
+                    <h3 style="font-size: medium;">Express 30 Minute Service + Available at Doorstep</h3>
+                    <p><ul> 
+
+                        <li>Old Battery Removed</li>
+                        
+                        <li>New Battery Installed</li>
+
+                        <li>Functionality Checked with Multi Meter</li>
+
+                        <li>Engine Scanning</li>
+
+                        <li>Free Installation</li>
+
+                        <li>Old Battery Price included</li>
+
+                        <li>Available at Doorstep</li>
+                     
+                    </p>
+                    <p class="description"style="font-weight: bolder;">Price: <em>₱4700</em></p>
+                </div>
+                <button class="add-to-cart" onclick="addToCart('Amaron (55 Months Warranty)', 4700.00)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <div class="product-details">
+                    <h2 style="text-align: center">Motolite (55 Months Warranty)</h2>
+                    <h3 style="font-size: medium">Express 30 Minute Service + Available at Doorstep</h3>
+                    <p><ul> 
+
+                        
+                        <li>Old Battery Removed</li>
+                        
+                        <li>New Battery Installed</li>
+
+                        <li>Functionality Checked with Multi Meter</li>
+
+                        <li>Engine Scanning</li>
+
+                        <li>Free Installation</li>
+
+                        <li>Old Battery Price included</li>
+
+                        <li>Available at Doorstep</li>
+
+                   
+                    <p class="description"style="font-weight: bolder;">Price: <em>₱7500</em></p>
+                </div>
+                <button class="add-to-cart" onclick="addToCart('Motolite (55 Months Warranty)', 7500.00)">Add to Cart</button>
+            </div>
+  
+
+
+    <div id="cart">
+        <h2>Shopping Cart</h2>
+        <ul id="cart-list"></ul>
+        <div id="cart-total">Total: ₱0.00</div>
+        <button id="checkout-button" onclick="checkout()">Checkout</button>
+    </div>
+
+    <script>
+        let cart = [];
+
+        function addToCart(productName, price) {
+            const product = {
+                name: productName,
+                price: price
+            };
+
+            cart.push(product);
+
+            updateCart();
+        }
+
+        function removeItem(index) {
+            cart.splice(index, 1);
+            updateCart();
+        }
+
+        function updateCart() {
+            const cartList = document.getElementById('cart-list');
+            const cartTotal = document.getElementById('cart-total');
+
+            cartList.innerHTML = '';
+            let total = 0;
+
+            cart.forEach((item, index) => {
+                const listItem = document.createElement('li');
+                listItem.innerHTML = `
+                    <span>${item.name}</span>
+                    <span>₱${item.price.toFixed(2)}</span>
+                    <button class="remove-button" onclick="removeItem(${index})">Remove</button>
+                `;
+                cartList.appendChild(listItem);
+
+                total += item.price;
+            });
+
+            cartTotal.textContent = `Total: ₱${total.toFixed(2)}`;
+        }
+
+        function goBack() {
+            window.history.back();
+        }
+
+        function checkout() {
+            if (cart.length === 0) {
+                alert('Your cart is empty. Add items before checking out.');
+            } else {
+                window.location.href = 'payment.html';
+            }
+        }
+    </script>
+
+</body>
+</html>

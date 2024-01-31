@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <header>
+        <button class="back-button"  onclick="goBack()">Back</button>
+        <h1>Membership</h1>
+        <div></div>
+    </header>
+
+    <main id="main-content">
+        <div class="product-list">
+            <!-- Three product items -->
+            <div class="product">
+                <div class="product-details">
+                    <h2 style="text-align: center;">Premium Membership - 1 Year</h2>
+                    <h3 style="font-size: medium;">Flat 30% off on all Services listed + Dedicated Service Advisor</h3>
+                    <p><ul> 
+
+                        <li>Free 3 Doorstep Inspections / Jump starts worth ₱1000</li>
+                        
+                        <li>Free 2 Express Check-ups worth ₱2450</li>
+
+                        <li>Flat 20% off on all Services listed</li>
+
+                        <li>Dedicated Service Advisor</li>
+
+                        <li>Priority Support on all working Days</li>
+
+                        <li>Total Benefits worth ₱20200</li>
+                     
+
+                </div>
+
+                    <stripe-buy-button
+                    buy-button-id="buy_btn_1OcnX7CQNS3uveyVUhvIiJcr"
+                    publishable-key="pk_test_51Oa7sqCQNS3uveyVh5Fepgo7ysDhf9oAnBr35jkMQh9UrvA4bgaDkhbG2koFBQ7klREGzvUArqVYBWAnojDwXrXW00DadOdA5V"
+                    >
+                    </stripe-buy-button>
+
+                </div>
+
+
+            <div class="product">
+                <div class="product-details">
+                    <h2 style="text-align: center">Premium Membership - 3 Years</h2>
+                    <h3 style="font-size: medium">Flat 30% off on all Services listed + Dedicated Service Advisor</h3>
+                    <p><ul> 
+
+                        <li>Free 10 Inspections / Jump starts worth ₱3370</li>
+                        
+                        <li>Free 6 Express Check-ups worth ₱8080</li>
+
+                        <li>30% off on Complete Car Service</li>
+
+                        <li>30% off on Car Painting</li>
+
+                        <li>Dedicated Service Advisor</li>
+
+                        <li>Total Benefits worth ₱33670</li>
+
+
+                </div>
+
+                        <stripe-buy-button
+                        buy-button-id="buy_btn_1OcnazCQNS3uveyVxnd3qkSE"
+                        publishable-key="pk_test_51Oa7sqCQNS3uveyVh5Fepgo7ysDhf9oAnBr35jkMQh9UrvA4bgaDkhbG2koFBQ7klREGzvUArqVYBWAnojDwXrXW00DadOdA5V"
+                        >
+                        </stripe-buy-button>
+
+                </div>
+  
+        
+    </main>
+
+    <main id="main-content">
+        <div class="product-list">
+            <!-- Three product items -->
+            <div class="product">
+                <div class="product-details">
+                    <h2 style="text-align: center">Premium Membership - 5 Years</h2>
+                    <h3 style="font-size: medium">Flat 30% off on all Services listed + Dedicated Service Advisor</h3>
+                    <p><ul> 
+
+                        <li>Free 10 Doorstep Inspections / Jumpstarts worth ₱3365</li>
+                        
+                        <li>Free 12 Express Check-ups worth ₱13465</li>
+
+                        <li>30% off on Complete Car Service</li>
+
+                        <li>30% off on Denting and Painting services</li>
+
+                        <li>25% off on Car Major Repairs</li>
+
+                        <li>Total Benefits worth ₱67350</li>
+                        
+ 
+                </div>
+
+                    <stripe-buy-button
+                    buy-button-id="buy_btn_1Ocnc7CQNS3uveyVKnhwrtg1"
+                    publishable-key="pk_test_51Oa7sqCQNS3uveyVh5Fepgo7ysDhf9oAnBr35jkMQh9UrvA4bgaDkhbG2koFBQ7klREGzvUArqVYBWAnojDwXrXW00DadOdA5V"
+                    >
+                    </stripe-buy-button>
+                
+                </div>
+
+            <div class="product">
+                <div class="product-details">
+                    <h2 style="text-align: center">Premium Membership - 10 Years</h2>
+                    <h3 style="font-size: medium">Flat 30% off on all Services listed + Dedicated Service Advisor</h3>
+                    <p><ul> 
+
+                        <li>Free 10 Doorstep Inspections / Jumpstarts worth ₱3365</li>
+                        
+                        <li>Free 20 Express Check-ups worth ₱13465</li>
+
+                        <li>30% off on Complete Car Service</li>
+
+                        <li>30% off on Denting and Painting services</li>
+
+                        <li>25% off on Car Major Repairs</li>
+
+                        <li>Total Benefits worth ₱101010</li>
+                        
+                    </p>
+                    
+                    <p class="description"style="font-weight: bolder;">Price: <em>₱9085</em></p>
+                </div>
+
+                        <stripe-buy-button
+                        buy-button-id="buy_btn_1OcndQCQNS3uveyVwgfNxa4Y"
+                        publishable-key="pk_test_51Oa7sqCQNS3uveyVh5Fepgo7ysDhf9oAnBr35jkMQh9UrvA4bgaDkhbG2koFBQ7klREGzvUArqVYBWAnojDwXrXW00DadOdA5V"
+                        >
+                        </stripe-buy-button>
+
+                </div>
+  
+
+            <script async
+            src="https://js.stripe.com/v3/buy-button.js">
+            </script>
+        
+            <script>
+        
+            function goBack() {
+                window.history.back();
+                }
+            </script>
+
+</body>
+</html>

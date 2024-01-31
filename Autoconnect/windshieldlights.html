@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Windshield and Lights</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <header>
+        <button class="back-button"  onclick="goBack()">Back</button>
+        <h1>Windshield and Lights</h1>
+        <div></div>
+    </header>
+
+    <main id="main-content">
+        <div class="product-list">
+            <!-- Three product items -->
+            <div class="product">
+                <div class="product-details">
+                    <h2 style="text-align: center;">Windshield and Lights</h2>
+
+                    <p><ul> 
+
+                        <li>Windshield Wiper Replacement</li>
+                        
+                        <li>Headlights Replacement</li>
+
+                        <li>Lightbulb Replacement </li>
+                        
+
+                </div>
+                    <stripe-buy-button
+                    buy-button-id="buy_btn_1OcnRUCQNS3uveyVmO50M1rh"
+                    publishable-key="pk_test_51Oa7sqCQNS3uveyVh5Fepgo7ysDhf9oAnBr35jkMQh9UrvA4bgaDkhbG2koFBQ7klREGzvUArqVYBWAnojDwXrXW00DadOdA5V"
+                    >
+                    </stripe-buy-button>
+                </div>
+ 
+ 
+        
+                <script async
+                src="https://js.stripe.com/v3/buy-button.js">
+                </script>
+            
+                <script>
+            
+                function goBack() {
+                    window.history.back();
+                    }
+                </script>
+
+</body>
+</html>
