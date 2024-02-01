@@ -7,9 +7,9 @@ const Home = () => {
     <div>
         <ClientNavbar />
 
-        <section className="hero-section container-fluid px-md-4 px-sm-4 px-2 py-5">
-            <div className="row">
-                <div className="col-md-6 d-flex align-items-center justify-content-center mb-md-0 mb-sm-0 mb-5">
+        <section className="hero-section container-fluid px-md-4 px-sm-4 px-2 py-5  d-flex align-items-center justify-content-center">
+            <div className="row mt-5">
+                <div className="col-md-6 d-flex align-items-center justify-content-center mb-md-0 mb-sm-5 mb-5">
                     <div className="container-fluid text-start">
                         <h2 className="mb-4 display-5 fw-bold">On-Demand Car Repairs, Anytime, Anywhere</h2>
                         <h5 className="mb-4">Stuck on the Road? We'll Fix It Wherever You Are.</h5>
