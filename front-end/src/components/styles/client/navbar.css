@@ -35,3 +35,7 @@ html, body {
     background: var(--navbar-bg);
     box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
 }
+
+.nav-link:hover {
+    color: var(--primary-color) !important
+}
