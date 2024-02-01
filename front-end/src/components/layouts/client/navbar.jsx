@@ -30,7 +30,9 @@ const ClientNavbar = () => {
                                 <a className="nav-link fw-semibold me-3 text-black" href=""><i class="bi bi-telephone-outbound fs-5"></i> CONTACT</a>
                             </li>
                         </ul>
-
+                        <a href="">
+                            <button className="btn btn-danger fw-semibold login-btn">LOGIN</button>
+                        </a>
                     </div>
                 </div>
             </nav>
