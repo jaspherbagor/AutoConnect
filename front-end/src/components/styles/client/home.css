@@ -42,3 +42,8 @@ html, body {
     color: var(--text-color-dark);
     outline: 2px solid var(--primary-color)
 }
+
+.feature-icon {
+    border-radius: 50%;
+    border: 2px solid var(--navbar-bg)
+}
