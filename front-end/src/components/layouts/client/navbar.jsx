@@ -3,7 +3,7 @@ import '../../styles/client/navbar.css';
 const ClientNavbar = () => {
     return (
         <div>
-            <nav className="navbar navbar-expand-lg text-start px-2">
+            <nav className="navbar navbar-expand-lg text-start px-2 py-1">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#">
                         <img src="../images/logo.svg" alt="" className="img-fluid" />
