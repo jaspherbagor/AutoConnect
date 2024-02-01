@@ -9,7 +9,7 @@ const Home = () => {
 
         <section className="hero-section container-fluid px-md-4 px-sm-4 px-2 py-5">
             <div className="row">
-                <div className="col-md-6 d-flex align-items-center justify-content-center">
+                <div className="col-md-6 d-flex align-items-center justify-content-center mb-md-0 mb-sm-0 mb-5">
                     <div className="container-fluid text-start">
                         <h2 className="mb-4 display-5 fw-bold">On-Demand Car Repairs, Anytime, Anywhere</h2>
                         <h5 className="mb-4">Stuck on the Road? We'll Fix It Wherever You Are.</h5>
@@ -23,70 +23,76 @@ const Home = () => {
                 </div>
             </div>
         </section>
-        <section className="feature-section container-fluid px-md-4 px-sm-4 py-5">
+        <section className="feature-section container-fluid px-md-4 px-sm-4 px-2 py-5">
             <div className="row mt-5">
-                <div className="col-lg-3 col-md-3 col-sm-6">
-                    <div className="row">
-                        <div className="col-md-6 d-flex justify-content-center align-items-center">
-                            <i class="bi bi-emoji-smile display-1 h-100 w-100 feature-icon"></i>
-                        </div>
-                        <div className="col-md-6 align-items-center">
-                            <div className="col-12">
-                                <p className="text-start">Satisfied Customers</p>
+                <div className="col-lg-3 col-md-4 col-sm-6 col-12 feature-type mb-4">
+                        <div className="row gap-0">
+                            <div className="col-6 d-flex justify-content-center align-items-center">
+                                <i class="bi bi-emoji-smile display-3 feature-icon px-4 py-3"></i>
                             </div>
-                            <div className="col-12">
-                                <h1 className="fw-bolder text-start">500+</h1>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-lg-3 col-md-3 col-sm-6">
-                    <div className="row">
-                        <div className="col-md-6 d-flex justify-content-center align-items-center">
-                            <i class="bi bi-emoji-smile display-1 h-100 w-100 feature-icon"></i>
-                        </div>
-                        <div className="col-md-6 align-items-center">
-                            <div className="col-12">
-                                <p className="text-start">Satisfied Customers</p>
-                            </div>
-                            <div className="col-12">
-                                <h1 className="fw-bolder text-start">500+</h1>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-lg-3 col-md-3 col-sm-6">
-                    <div className="row">
-                        <div className="col-md-6 d-flex justify-content-center align-items-center">
-                            <i class="bi bi-emoji-smile display-1 h-100 w-100 feature-icon"></i>
-                        </div>
-                        <div className="col-md-6 align-items-center">
-                            <div className="col-12">
-                                <p className="text-start">Satisfied Customers</p>
-                            </div>
-                            <div className="col-12">
-                                <h1 className="fw-bolder text-start">500+</h1>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-lg-3 col-md-3 col-sm-6 feature-type">
-                    <div className="row">
-                        <div className="col-md-6 d-flex justify-content-center align-items-center">
-                            <i class="bi bi-emoji-smile display-1 feature-icon px-4 py-3"></i>
-                        </div>
-                        <div className="col-md-6 d-flex align-items-center justify-content-center">
-                            <div className="container-fluid p-0">
-                                <div className="col-12 py-0 my-0">
-                                    <p className="text-start py-0 my-0">Satisfied Customers</p>
-                                </div>
-                                <div className="col-12 py-0 my-0">
-                                    <h1 className="fw-bolder text-start py-0 my-0 feature-amount">500+</h1>
+                            <div className="col-6 d-flex align-items-center justify-content-center">
+                                <div className="container-fluid p-0">
+                                    <div className="col-12 py-0 my-0">
+                                        <p className="text-start py-0 my-0">Satisfied Customers</p>
+                                    </div>
+                                    <div className="col-12 py-0 my-0">
+                                        <h1 className="fw-bolder text-start py-0 my-0 feature-amount">900+</h1>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                    <div className="col-lg-3 col-md-4 col-sm-6 col-12 feature-type mb-4">
+                        <div className="row gap-0">
+                            <div className="col-6 d-flex justify-content-center align-items-center">
+                                <i class="bi bi-search display-3 feature-icon px-4 py-3"></i>
+                            </div>
+                            <div className="col-6 d-flex align-items-center justify-content-center">
+                                <div className="container-fluid p-0">
+                                    <div className="col-12 py-0 my-0">
+                                        <p className="text-start py-0 my-0">Cars Inspected</p>
+                                    </div>
+                                    <div className="col-12 py-0 my-0">
+                                        <h1 className="fw-bolder text-start py-0 my-0 feature-amount">600+</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-4 col-sm-6 col-12 feature-type mb-4">
+                        <div className="row gap-0">
+                            <div className="col-6 d-flex justify-content-center align-items-center">
+                                <i class="bi bi-tools display-3 feature-icon px-4 py-3"></i>
+                            </div>
+                            <div className="col-6 d-flex align-items-center justify-content-center">
+                                <div className="container-fluid p-0">
+                                    <div className="col-12 py-0 my-0">
+                                        <p className="text-start py-0 my-0">Cars Repaired</p>
+                                    </div>
+                                    <div className="col-12 py-0 my-0">
+                                        <h1 className="fw-bolder text-start py-0 my-0 feature-amount">700+</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-4 col-sm-6 col-12 feature-type mb-4">
+                        <div className="row gap-0">
+                            <div className="col-6 d-flex justify-content-center align-items-center">
+                                <i class="bi bi-magic display-3 feature-icon px-4 py-3"></i>
+                            </div>
+                            <div className="col-6 d-flex align-items-center justify-content-center">
+                                <div className="container-fluid p-0">
+                                    <div className="col-12 py-0 my-0">
+                                        <p className="text-start py-0 my-0">Cars Redefined</p>
+                                    </div>
+                                    <div className="col-12 py-0 my-0">
+                                        <h1 className="fw-bolder text-start py-0 my-0 feature-amount">400+</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
             </div>
         </section>
 
