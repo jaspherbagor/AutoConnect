@@ -27,6 +27,7 @@ html, body {
     --font-family: 'Inter', sans-serif;
 }
 
+/* Hero Section Start */
 .hero-section {
     background: var(--grayish-color);
 }
@@ -42,8 +43,30 @@ html, body {
     color: var(--text-color-dark);
     outline: 2px solid var(--primary-color)
 }
+/* Hero Section End */
 
+/* Feature Section Start */
 .feature-icon {
     border-radius: 50%;
-    border: 2px solid var(--navbar-bg)
+    border: 3px solid var(--navbar-bg);
+    color: var(--primary-color)
 }
+
+.feature-type {
+    cursor: pointer;
+}
+
+.feature-type:hover .feature-icon {
+    border: 3px solid var(--primary-color);
+}
+
+.feature-amount {
+    color: var(--primary-color)
+}
+
+.feature-type:hover .feature-amount {
+    transform: scale(1.05);
+}
+
+
+/* Feature Section End */
