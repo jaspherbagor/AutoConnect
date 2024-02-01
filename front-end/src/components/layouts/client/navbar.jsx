@@ -17,17 +17,17 @@ const ClientNavbar = () => {
                                 <a className="nav-link active fw-semibold me-3" aria-current="page" href="#"><i class="bi bi-house-door fs-5"></i> HOME</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link fw-semibold me-3" href="#">ABOUT</a>
+                                <a className="nav-link fw-semibold me-3" href="#"><i class="bi bi-info-circle fs-5"></i> ABOUT</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link fw-semibold me-3" href="#">SERVICES</a>
+                                <a className="nav-link fw-semibold me-3" href="#"><i class="bi bi-tools fs-5"></i> SERVICES</a>
                             </li>
 
                             <li className="nav-item">
-                                <a className="nav-link fw-semibold me-3" href="">FAQS</a>
+                                <a className="nav-link fw-semibold me-3" href=""><i class="bi bi-patch-question fs-5"></i> FAQS</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link fw-semibold me-3" href="">CONTACT</a>
+                                <a className="nav-link fw-semibold me-3" href=""><i class="bi bi-telephone-outbound fs-5"></i> CONTACT</a>
                             </li>
                         </ul>
 
