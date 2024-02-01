@@ -14,33 +14,23 @@ const ClientNavbar = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <a className="nav-link active fw-semibold fs-5" aria-current="page" href="#">Home</a>
+                                <a className="nav-link active fw-semibold" aria-current="page" href="#">HOME</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link fw-semibold fs-5" href="#">About</a>
+                                <a className="nav-link fw-semibold" href="#">ABOUT</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link fw-semibold fs-5" href="#">Services</a>
+                                <a className="nav-link fw-semibold" href="#">SERVICES</a>
                             </li>
 
-                            {/* <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Dropdown
-                                </a>
-                                <ul className="dropdown-menu">
-                                    <li><a className="dropdown-item" href="#">Action</a></li>
-                                    <li><a className="dropdown-item" href="#">Another action</a></li>
-                                    <li><hr className="dropdown-divider"/></li>
-                                    <li><a className="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </li> */}
                             <li className="nav-item">
-                                <a className="nav-link fw-semibold fs-5" href="">FAQs</a>
+                                <a className="nav-link fw-semibold" href="">FAQS</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link fw-semibold fs-5" href="">Contact</a>
+                                <a className="nav-link fw-semibold" href="">CONTACT</a>
                             </li>
                         </ul>
+
                     </div>
                 </div>
             </nav>
