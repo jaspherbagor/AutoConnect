@@ -23,6 +23,9 @@ const Home = () => {
                 </div>
             </div>
         </section>
+        <section className="feature-section container-fluid px-md-4 px-sm-4 py-5">
+
+        </section>
 
         <ClientFooter />
     </div>
