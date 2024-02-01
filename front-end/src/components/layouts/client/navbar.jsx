@@ -14,7 +14,7 @@ const ClientNavbar = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <a className="nav-link active fw-semibold me-3" aria-current="page" href="#">HOME</a>
+                                <a className="nav-link active fw-semibold me-3" aria-current="page" href="#"><i class="bi bi-house-door fs-5"></i> HOME</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link fw-semibold me-3" href="#">ABOUT</a>
