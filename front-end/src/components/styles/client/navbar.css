@@ -39,3 +39,15 @@ html, body {
 .nav-link:hover {
     color: var(--primary-color) !important
 }
+
+.login-btn {
+    border: 2px solid var(--text-color-dark);
+    background: var(--primary-color);
+    color: var(--text-color-light)
+}
+
+.login-btn:hover {
+    border: 2px solid var(--primary-color);
+    background: var(--text-color-dark);
+    color: var(--text-color-light)
+}
