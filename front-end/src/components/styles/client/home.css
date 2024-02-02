@@ -84,4 +84,10 @@ h2 span {
     border: 2px solid var(--text-color-dark);
     color: var(--text-color-light)
 }
+
+.view-service-btn:hover {
+    background: var(--text-color-dark);
+    border: 2px solid var(--primary-color);
+    color: var(--text-color-light)
+}
 /* Services Offered Section End */
