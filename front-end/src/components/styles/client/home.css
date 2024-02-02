@@ -39,8 +39,8 @@ html, body {
 }
 
 .get-help-btn:hover {
-    background:var(--navbar-bg);
-    color: var(--text-color-dark);
+    background:var(--text-color-dark);
+    color: var(--text-color-light);
     outline: 2px solid var(--primary-color)
 }
 /* Hero Section End */

@@ -97,6 +97,11 @@ const Home = () => {
         </section>
         <section className="services-offered container-fluid px-md-4 px-sm-4 px-2 py-5">
             <h2 className="fw-bolder text-center"><span>SERVICES</span> OFFERED</h2>
+            <div className="row mt-5">
+                <div className="col-lg-3 col-md-3 col-sm-6">
+                    <h4>This is a service sample</h4>
+                </div>
+            </div>
 
         </section>
 
