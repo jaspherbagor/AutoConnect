@@ -99,13 +99,49 @@ const Home = () => {
                 <h2 className="fw-bolder text-center"><span>SERVICES</span> OFFERED</h2>
                 <div className="row mt-5">
                     <div className="col-lg-3 col-md-3 col-sm-6">
-                        <div className="card p-0 service-card">
+                        <div className="card p-0 service-card mb-4">
                             <img src="../images/car_repair.png" className="card-img-top img-fluid" alt="..."/>
                             <div className="card-body">
                                 <h4 className="card-head fw-bolder">MAJOR REPAIR</h4>
                                 <p className="card-text text-start">Get best Car Repair Service in anywhere in the Philippines.</p>
                                 <a href="">
-                                    <button className="btn btn-danger fw-semibold view-service-btn">View Service</button>
+                                    <button className="btn btn-danger fw-semibold view-service-btn">View Service <i class="bi bi-arrow-right fs-5"></i></button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-3 col-sm-6">
+                        <div className="card p-0 service-card mb-4">
+                            <img src="../images/car_repair.png" className="card-img-top img-fluid" alt="..."/>
+                            <div className="card-body">
+                                <h4 className="card-head fw-bolder">MAJOR REPAIR</h4>
+                                <p className="card-text text-start">Get best Car Repair Service in anywhere in the Philippines.</p>
+                                <a href="">
+                                    <button className="btn btn-danger fw-semibold view-service-btn">View Service <i class="bi bi-arrow-right fs-5"></i></button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-3 col-sm-6">
+                        <div className="card p-0 service-card mb-4">
+                            <img src="../images/car_repair.png" className="card-img-top img-fluid" alt="..."/>
+                            <div className="card-body">
+                                <h4 className="card-head fw-bolder">MAJOR REPAIR</h4>
+                                <p className="card-text text-start">Get best Car Repair Service in anywhere in the Philippines.</p>
+                                <a href="">
+                                    <button className="btn btn-danger fw-semibold view-service-btn">View Service <i class="bi bi-arrow-right fs-5"></i></button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-3 col-sm-6">
+                        <div className="card p-0 service-card mb-4">
+                            <img src="../images/car_repair.png" className="card-img-top img-fluid" alt="..."/>
+                            <div className="card-body">
+                                <h4 className="card-head fw-bolder">MAJOR REPAIR</h4>
+                                <p className="card-text text-start">Get best Car Repair Service in anywhere in the Philippines.</p>
+                                <a href="">
+                                    <button className="btn btn-danger fw-semibold view-service-btn">View Service <i class="bi bi-arrow-right fs-5"></i></button>
                                 </a>
                             </div>
                         </div>
