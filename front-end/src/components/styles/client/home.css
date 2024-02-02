@@ -67,6 +67,10 @@ html, body {
 .feature-type:hover .feature-amount {
     transform: scale(1.05);
 }
-
-
 /* Feature Section End */
+
+/* Services Offered Section Start */
+h2 span {
+    color: var(--primary-color)
+}
+/* Services Offered Section End */

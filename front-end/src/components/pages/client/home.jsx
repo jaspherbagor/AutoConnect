@@ -96,8 +96,8 @@ const Home = () => {
             </div>
         </section>
         <section className="services-offered container-fluid px-md-4 px-sm-4 px-2 py-5">
-            <h2 className="fw-bolder text-center">SERVICES OFFERED</h2>
-            
+            <h2 className="fw-bolder text-center"><span>SERVICES</span> OFFERED</h2>
+
         </section>
 
         <ClientFooter />
