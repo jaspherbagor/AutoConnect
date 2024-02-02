@@ -28,7 +28,7 @@ const Home = () => {
                     <div className="col-lg-3 col-md-4 col-sm-6 col-12 feature-type mb-4">
                         <div className="row gap-0">
                             <div className="col-6 d-flex justify-content-center align-items-center">
-                                <i class="bi bi-emoji-smile display-3 feature-icon px-4 py-3"></i>
+                                <i className="bi bi-emoji-smile display-3 feature-icon px-4 py-3"></i>
                             </div>
                             <div className="col-6 d-flex align-items-center justify-content-center">
                                 <div className="container-fluid p-0">
@@ -45,7 +45,7 @@ const Home = () => {
                     <div className="col-lg-3 col-md-4 col-sm-6 col-12 feature-type mb-4">
                         <div className="row gap-0">
                             <div className="col-6 d-flex justify-content-center align-items-center">
-                                <i class="bi bi-search display-3 feature-icon px-4 py-3"></i>
+                                <i className="bi bi-search display-3 feature-icon px-4 py-3"></i>
                             </div>
                             <div className="col-6 d-flex align-items-center justify-content-center">
                                 <div className="container-fluid p-0">
@@ -62,7 +62,7 @@ const Home = () => {
                     <div className="col-lg-3 col-md-4 col-sm-6 col-12 feature-type mb-4">
                         <div className="row gap-0">
                             <div className="col-6 d-flex justify-content-center align-items-center">
-                                <i class="bi bi-tools display-3 feature-icon px-4 py-3"></i>
+                                <i className="bi bi-tools display-3 feature-icon px-4 py-3"></i>
                             </div>
                             <div className="col-6 d-flex align-items-center justify-content-center">
                                 <div className="container-fluid p-0">
@@ -79,7 +79,7 @@ const Home = () => {
                     <div className="col-lg-3 col-md-4 col-sm-6 col-12 feature-type mb-4">
                         <div className="row gap-0">
                             <div className="col-6 d-flex justify-content-center align-items-center">
-                                <i class="bi bi-magic display-3 feature-icon px-4 py-3"></i>
+                                <i className="bi bi-magic display-3 feature-icon px-4 py-3"></i>
                             </div>
                             <div className="col-6 d-flex align-items-center justify-content-center">
                                 <div className="container-fluid p-0">
@@ -105,7 +105,7 @@ const Home = () => {
                                 <h4 className="card-head fw-bolder">MAJOR REPAIR</h4>
                                 <p className="card-text text-start">Get best Car Repair Service in anywhere in the Philippines.</p>
                                 <a href="">
-                                    <button className="btn btn-danger fw-semibold view-service-btn">View Service <i class="bi bi-arrow-right fs-5"></i></button>
+                                    <button className="btn btn-danger fw-semibold view-service-btn">View Service <i className="bi bi-arrow-right fs-5"></i></button>
                                 </a>
                             </div>
                         </div>
@@ -117,7 +117,7 @@ const Home = () => {
                                 <h4 className="card-head fw-bolder">AC SERVICE</h4>
                                 <p className="card-text text-start">AC mechanics conduct regular checks for optimum performance of air conditioners.</p>
                                 <a href="">
-                                    <button className="btn btn-danger fw-semibold view-service-btn">View Service <i class="bi bi-arrow-right fs-5"></i></button>
+                                    <button className="btn btn-danger fw-semibold view-service-btn">View Service <i className="bi bi-arrow-right fs-5"></i></button>
                                 </a>
                             </div>
                         </div>
@@ -129,7 +129,7 @@ const Home = () => {
                                 <h4 className="card-head fw-bolder">MAJOR REPAIR</h4>
                                 <p className="card-text text-start">Get best Car Repair Service in anywhere in the Philippines.</p>
                                 <a href="">
-                                    <button className="btn btn-danger fw-semibold view-service-btn">View Service <i class="bi bi-arrow-right fs-5"></i></button>
+                                    <button className="btn btn-danger fw-semibold view-service-btn">View Service <i className="bi bi-arrow-right fs-5"></i></button>
                                 </a>
                             </div>
                         </div>
@@ -141,7 +141,7 @@ const Home = () => {
                                 <h4 className="card-head fw-bolder">MAJOR REPAIR</h4>
                                 <p className="card-text text-start">Get best Car Repair Service in anywhere in the Philippines.</p>
                                 <a href="">
-                                    <button className="btn btn-danger fw-semibold view-service-btn">View Service <i class="bi bi-arrow-right fs-5"></i></button>
+                                    <button className="btn btn-danger fw-semibold view-service-btn">View Service <i className="bi bi-arrow-right fs-5"></i></button>
                                 </a>
                             </div>
                         </div>
