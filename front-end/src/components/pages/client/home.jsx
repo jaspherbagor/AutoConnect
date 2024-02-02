@@ -95,6 +95,9 @@ const Home = () => {
                     </div>
             </div>
         </section>
+        <section className="services-offered container-fluid px-md-4 px-sm-4 px-2 py-5">
+
+        </section>
 
         <ClientFooter />
     </div>
