@@ -112,10 +112,10 @@ const Home = () => {
                     </div>
                     <div className="col-lg-3 col-md-3 col-sm-6">
                         <div className="card p-0 service-card mb-4">
-                            <img src="../images/car_repair.png" className="card-img-top img-fluid" alt="..."/>
+                            <img src="../images/ac_service.png" className="card-img-top img-fluid" alt="..."/>
                             <div className="card-body">
-                                <h4 className="card-head fw-bolder">MAJOR REPAIR</h4>
-                                <p className="card-text text-start">Get best Car Repair Service in anywhere in the Philippines.</p>
+                                <h4 className="card-head fw-bolder">AC SERVICE</h4>
+                                <p className="card-text text-start">AC mechanics conduct regular checks for optimum performance of air conditioners.</p>
                                 <a href="">
                                     <button className="btn btn-danger fw-semibold view-service-btn">View Service <i class="bi bi-arrow-right fs-5"></i></button>
                                 </a>
@@ -145,6 +145,11 @@ const Home = () => {
                                 </a>
                             </div>
                         </div>
+                    </div>
+                    <div className="text-center mt-4">
+                        <a href="">
+                            <button className="btn btn-danger px-3 py-3 fw-semibold more-services-btn">VIEW MORE</button>
+                        </a>
                     </div>
                 </div>
 

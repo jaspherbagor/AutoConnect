@@ -81,14 +81,13 @@ h2 span {
 }
 
 
-
-.view-service-btn {
+.view-service-btn, .more-services-btn {
     background: var(--primary-color);
     border: 2px solid var(--text-color-dark);
     color: var(--text-color-light)
 }
 
-.view-service-btn:hover {
+.view-service-btn:hover, .more-services-btn:hover {
     background: var(--text-color-dark);
     border: 2px solid var(--primary-color);
     color: var(--text-color-light)
