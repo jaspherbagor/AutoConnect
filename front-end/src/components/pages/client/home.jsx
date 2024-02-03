@@ -98,7 +98,7 @@ const Home = () => {
             <section className="services-offered container-fluid px-md-4 px-sm-4 px-2 py-5">
                 <h2 className="fw-bolder text-center"><span>SERVICES</span> OFFERED</h2>
                 <div className="row mt-5">
-                    <div className="col-lg-3 col-md-3 col-sm-6">
+                    <div className="col-lg-3 col-md-4 col-sm-6">
                         <div className="card p-0 service-card mb-4">
                             <img src="../images/car_repair.png" className="card-img-top img-fluid" alt="..."/>
                             <div className="card-body">
@@ -110,7 +110,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-3 col-sm-6">
+                    <div className="col-lg-3 col-md-4 col-sm-6">
                         <div className="card p-0 service-card mb-4">
                             <img src="../images/ac_service.png" className="card-img-top img-fluid" alt="..."/>
                             <div className="card-body">
@@ -122,7 +122,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-3 col-sm-6">
+                    <div className="col-lg-3 col-md-4 col-sm-6">
                         <div className="card p-0 service-card mb-4">
                             <img src="../images/car_inspection.png" className="card-img-top img-fluid" alt="..."/>
                             <div className="card-body">
@@ -134,8 +134,8 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-3 col-sm-6">
-                        <div className="card p-0 service-card mb-4">
+                    <div className="col-lg-3 col-md-4 col-sm-6">
+                        <div className="card p-0 service-card">
                             <img src="../images/car_detailing.png" className="card-img-top img-fluid" alt="..."/>
                             <div className="card-body">
                                 <h4 className="card-head fw-bolder">CAR DETAILING</h4>
