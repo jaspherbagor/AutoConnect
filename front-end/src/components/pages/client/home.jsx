@@ -103,7 +103,7 @@ const Home = () => {
                             <img src="../images/car_repair.png" className="card-img-top img-fluid" alt="..."/>
                             <div className="card-body">
                                 <h4 className="card-head fw-bolder">MAJOR REPAIR</h4>
-                                <p className="card-text text-start">Experience top-tier car repair services anywhere in the Philippines.</p>
+                                <p className="card-text text-start">Elevate your auto with top-tier repair services across the Philippines.</p>
                                 <a href="">
                                     <button className="btn btn-danger fw-semibold view-service-btn">View Service <i className="bi bi-arrow-right fs-5"></i></button>
                                 </a>
@@ -115,7 +115,7 @@ const Home = () => {
                             <img src="../images/ac_service.png" className="card-img-top img-fluid" alt="..."/>
                             <div className="card-body">
                                 <h4 className="card-head fw-bolder">AC SERVICE</h4>
-                                <p className="card-text text-start">Stay cool on the road with our premier AC service.</p>
+                                <p className="card-text text-start">Cruise in comfort with our premier AC service, enhancing performance.</p>
                                 <a href="">
                                     <button className="btn btn-danger fw-semibold view-service-btn">View Service <i className="bi bi-arrow-right fs-5"></i></button>
                                 </a>
@@ -127,7 +127,7 @@ const Home = () => {
                             <img src="../images/car_inspection.png" className="card-img-top img-fluid" alt="..."/>
                             <div className="card-body">
                                 <h4 className="card-head fw-bolder">CAR INSPECTION</h4>
-                                <p className="card-text text-start">Drive with confidence knowing your vehicle meets the highest safety standards. </p>
+                                <p className="card-text text-start">Drive assured, our thorough inspections meet the highest safety standards.</p>
                                 <a href="">
                                     <button className="btn btn-danger fw-semibold view-service-btn">View Service <i className="bi bi-arrow-right fs-5"></i></button>
                                 </a>
@@ -139,7 +139,7 @@ const Home = () => {
                             <img src="../images/car_detailing.png" className="card-img-top img-fluid" alt="..."/>
                             <div className="card-body">
                                 <h4 className="card-head fw-bolder">CAR DETAILING</h4>
-                                <p className="card-text text-start">Indulge your car with our meticulous detailing services.</p>
+                                <p className="card-text text-start">Indulge your car with meticulous detailing, ensuring a rejuvenated appearance.</p>
                                 <a href="">
                                     <button className="btn btn-danger fw-semibold view-service-btn">View Service <i className="bi bi-arrow-right fs-5"></i></button>
                                 </a>
