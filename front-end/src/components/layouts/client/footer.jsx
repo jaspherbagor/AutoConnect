@@ -8,7 +8,7 @@ const ClientFooter = () => {
             <div className="col-lg-2 col-md-4 col-sm-6 col-12 text-lg-start text-md-start text-sm-start text-center d-flex justify-content-center align-items-center">
               <img src="../images/logo.svg" alt="" className="img-fluid" />
             </div>
-            <div className="col-lg-2 col-md-4 col-sm-6 col-12 text-lg-start text-md-start text-sm-start text-center text-white">
+            <div className="col-lg-2 col-md-4 col-sm-6 col-12 text-lg-start text-md-start text-sm-start text-center text-white mb-4">
               <h5 className="fw-bolder mb-4">CUSTOMER SERVICE</h5>
               <a href="" className="text-decoration-none text-white">
                 <p className="footer-link">Contact Us</p>
@@ -23,17 +23,58 @@ const ClientFooter = () => {
               <p className="footer-link">Terms & Condition</p>
               </a>
             </div>
-            <div className="col-lg-2 col-md-4 col-sm-6 col-12 text-lg-start text-md-start text-sm-start text-center">
-              col-3
+            <div className="col-lg-2 col-md-4 col-sm-6 col-12 text-lg-start text-md-start text-sm-start text-center text-white mb-4">
+            <h5 className="fw-bolder mb-4">CUSTOMER SERVICE</h5>
+              <a href="" className="text-decoration-none text-white">
+                <p className="footer-link">Contact Us</p>
+              </a>
+              <a href="" className="text-decoration-none text-white">
+              <p className="footer-link">FAQs</p>
+              </a>
+              <a href="" className="text-decoration-none text-white">
+              <p className="footer-link">Privacy Policy</p>
+              </a>
+              <a href="" className="text-decoration-none text-white">
+              <p className="footer-link">Terms & Condition</p>
+              </a>
             </div>
-            <div className="col-lg-2 col-md-4 col-sm-6 col-12 text-lg-start text-md-start text-sm-start text-center">
-              col-4
+            <div className="col-lg-2 col-md-4 col-sm-6 col-12 text-lg-start text-md-start text-sm-start text-center text-white mb-4">
+            <h5 className="fw-bolder mb-4">CUSTOMER SERVICE</h5>
+              <a href="" className="text-decoration-none text-white">
+                <p className="footer-link">Contact Us</p>
+              </a>
+              <a href="" className="text-decoration-none text-white">
+              <p className="footer-link">FAQs</p>
+              </a>
+              <a href="" className="text-decoration-none text-white">
+              <p className="footer-link">Privacy Policy</p>
+              </a>
+              <a href="" className="text-decoration-none text-white">
+              <p className="footer-link">Terms & Condition</p>
+              </a>
             </div>
-            <div className="col-lg-2 col-md-4 col-sm-6 col-12 text-lg-start text-md-start text-sm-start text-center">
-              col-5
+            <div className="col-lg-2 col-md-4 col-sm-6 col-12 text-lg-start text-md-start text-sm-start text-center text-white mb-4">
+            <h5 className="fw-bolder mb-4">CUSTOMER SERVICE</h5>
+              <a href="" className="text-decoration-none text-white">
+                <p className="footer-link">Contact Us</p>
+              </a>
+              <a href="" className="text-decoration-none text-white">
+              <p className="footer-link">FAQs</p>
+              </a>
+              <a href="" className="text-decoration-none text-white">
+              <p className="footer-link">Privacy Policy</p>
+              </a>
+              <a href="" className="text-decoration-none text-white">
+              <p className="footer-link">Terms & Condition</p>
+              </a>
             </div>
-            <div className="col-lg-2 col-md-4 col-sm-6 col-12 text-lg-start text-md-start text-sm-start text-center">
-              col-6
+            <div className="col-lg-2 col-md-4 col-sm-6 col-12 text-lg-start text-md-start text-sm-start text-center text-white mb-4">
+              <h5 className="fw-bolder">SOCIAL LINKS</h5>
+              <div className="container-fluid d-flex align-items-center justify-content-lg-start justify-content-md-start justify-content-sm-start justify-content-center">
+                <i class="bi bi-facebook fs-3 me-3"></i>
+                <i class="bi bi-youtube fs-3 me-3"></i>
+                <i class="bi bi-linkedin fs-3"></i>
+              </div>
             </div>
           </div>
         </section>
