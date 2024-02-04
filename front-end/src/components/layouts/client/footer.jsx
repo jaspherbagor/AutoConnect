@@ -72,13 +72,13 @@ const ClientFooter = () => {
               <h5 className="fw-bolder">SOCIAL LINKS</h5>
               <div className="container-fluid d-flex align-items-center justify-content-lg-start justify-content-md-start justify-content-sm-start justify-content-center">
                 <a href="" className="text-decoration-none text-white">
-                  <i class="bi bi-facebook fs-3 me-3"></i>
+                  <i className="bi bi-facebook fs-3 me-3"></i>
                 </a>
                 <a href="" className="text-decoration-none text-white">
-                  <i class="bi bi-youtube fs-3 me-3"></i>
+                  <i className="bi bi-youtube fs-3 me-3"></i>
                 </a>
                 <a href="" className="text-decoration-none text-white">
-                  <i class="bi bi-linkedin fs-3"></i>
+                  <i className="bi bi-linkedin fs-3"></i>
                 </a>               
               </div>
             </div>
