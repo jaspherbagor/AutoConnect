@@ -156,7 +156,7 @@ const Home = () => {
             </section>
             <section className="customers-review container-fluid px-md-4 px-sm-4 px-2 py-5">
                 <h2 className="fw-bolder text-center text-white"><span>CUSTOMERS</span> REVIEW</h2>
-                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div className="text-center mt-4">
