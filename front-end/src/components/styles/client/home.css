@@ -98,3 +98,12 @@ h2 span {
     color: var(--text-color-light)
 }
 /* Services Offered Section End */
+
+/* Customers Review Section Start */
+.customers-review {
+    background: url('../../../../public/images/customer-review-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* Customers Review Section End */
