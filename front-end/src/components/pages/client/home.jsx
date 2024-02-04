@@ -160,16 +160,38 @@ const Home = () => {
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div className="text-center mt-4">
-                            <i class="bi bi-chat-square-quote display-2 quote-icon"></i>
+                                <i class="bi bi-chat-square-quote display-2 quote-icon"></i>
                             </div>
                             <h3 className="fw-semibold mt-4 text-white fst-italic">"Revolutionizing my car care experience, AutoConnect stands out with unparalleled service, reliability, and affordability. A true gem in the market, making high-quality services accessible to everyone."</h3>
                             <p className="mt-4 fw-bolder reviewer-name">Sarah Johnson</p>
                         </div>
                         <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="..."/>
+                            <div className="text-center mt-4">
+                                <i class="bi bi-chat-square-quote display-2 quote-icon"></i>
+                            </div>
+                            <h3 className="fw-semibold mt-4 text-white fst-italic">"Revolutionizing my car care experience, AutoConnect stands out with unparalleled service, reliability, and affordability. A true gem in the market, making high-quality services accessible to everyone."</h3>
+                            <p className="mt-4 fw-bolder reviewer-name">Sarah Johnson</p>
                         </div>
                         <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="..."/>
+                            <div className="text-center mt-4">
+                                <i class="bi bi-chat-square-quote display-2 quote-icon"></i>
+                            </div>
+                            <h3 className="fw-semibold mt-4 text-white fst-italic">"Revolutionizing my car care experience, AutoConnect stands out with unparalleled service, reliability, and affordability. A true gem in the market, making high-quality services accessible to everyone."</h3>
+                            <p className="mt-4 fw-bolder reviewer-name">Sarah Johnson</p>
+                        </div>
+                        <div class="carousel-item">
+                            <div className="text-center mt-4">
+                                <i class="bi bi-chat-square-quote display-2 quote-icon"></i>
+                            </div>
+                            <h3 className="fw-semibold mt-4 text-white fst-italic">"Revolutionizing my car care experience, AutoConnect stands out with unparalleled service, reliability, and affordability. A true gem in the market, making high-quality services accessible to everyone."</h3>
+                            <p className="mt-4 fw-bolder reviewer-name">Sarah Johnson</p>
+                        </div>
+                        <div class="carousel-item">
+                            <div className="text-center mt-4">
+                                <i class="bi bi-chat-square-quote display-2 quote-icon"></i>
+                            </div>
+                            <h3 className="fw-semibold mt-4 text-white fst-italic">"Revolutionizing my car care experience, AutoConnect stands out with unparalleled service, reliability, and affordability. A true gem in the market, making high-quality services accessible to everyone."</h3>
+                            <p className="mt-4 fw-bolder reviewer-name">Sarah Johnson</p>
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
