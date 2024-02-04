@@ -154,6 +154,9 @@ const Home = () => {
                 </div>
 
             </section>
+            <section className="customers-review container-fluid px-md-4 px-sm-4 px-2 py-5">
+                
+            </section>
 
             <ClientFooter />
         </div>
