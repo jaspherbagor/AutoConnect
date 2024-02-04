@@ -156,51 +156,51 @@ const Home = () => {
             </section>
             <section className="customers-review container-fluid px-md-4 px-sm-4 px-2 py-5">
                 <h2 className="fw-bolder text-center text-white"><span>CUSTOMERS</span> REVIEW</h2>
-                <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
+                <div id="carouselExampleAutoplaying" className="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div className="carousel-inner">
+                        <div className="carousel-item active">
                             <div className="text-center mt-4">
-                                <i class="bi bi-chat-square-quote display-2 quote-icon"></i>
+                                <i className="bi bi-chat-square-quote display-2 quote-icon"></i>
                             </div>
                             <h3 className="fw-semibold mt-4 text-white fst-italic">"Revolutionizing my car care experience, AutoConnect stands out with unparalleled service, reliability, and affordability. A true gem in the market, making high-quality services accessible to everyone."</h3>
                             <p className="mt-4 fw-bolder reviewer-name">Sarah Johnson</p>
                         </div>
-                        <div class="carousel-item">
+                        <div className="carousel-item">
                             <div className="text-center mt-4">
-                                <i class="bi bi-chat-square-quote display-2 quote-icon"></i>
+                                <i className="bi bi-chat-square-quote display-2 quote-icon"></i>
                             </div>
                             <h3 className="fw-semibold mt-4 text-white fst-italic">"AutoConnect is a beacon of trust in the auto repair industry. Their precision and reasonable pricing set them apart, making them a game-changer. Grateful for their commitment to quality service."</h3>
                             <p className="mt-4 fw-bolder reviewer-name">David Anderson</p>
                         </div>
-                        <div class="carousel-item">
+                        <div className="carousel-item">
                             <div className="text-center mt-4">
-                                <i class="bi bi-chat-square-quote display-2 quote-icon"></i>
+                                <i className="bi bi-chat-square-quote display-2 quote-icon"></i>
                             </div>
                             <h3 className="fw-semibold mt-4 text-white fst-italic">"AutoConnect's detailing service is unmatched. The meticulous work performed brings my car to a brand-new state. Exceptional quality at affordable rates is truly transformative."</h3>
                             <p className="mt-4 fw-bolder reviewer-name">Alexandra Thompson</p>
                         </div>
-                        <div class="carousel-item">
+                        <div className="carousel-item">
                             <div className="text-center mt-4">
-                                <i class="bi bi-chat-square-quote display-2 quote-icon"></i>
+                                <i className="bi bi-chat-square-quote display-2 quote-icon"></i>
                             </div>
                             <h3 className="fw-semibold mt-4 text-white fst-italic">"AutoConnect's AC repair service is a lifesaver! They provide cool rides with exceptional service and fair pricing, going beyond satisfaction. Thank you for the relief."</h3>
                             <p className="mt-4 fw-bolder reviewer-name">Emily Walker</p>
                         </div>
-                        <div class="carousel-item">
+                        <div className="carousel-item">
                             <div className="text-center mt-4">
-                                <i class="bi bi-chat-square-quote display-2 quote-icon"></i>
+                                <i className="bi bi-chat-square-quote display-2 quote-icon"></i>
                             </div>
                             <h3 className="fw-semibold mt-4 text-white fst-italic">"AutoConnect's thorough inspections act as a safety net for my vehicle. The attention to detail ensures reliability, making every visit fantastic. Grateful for their efficiency and reliability."</h3>
                             <p className="mt-4 fw-bolder reviewer-name">Jessica Miller</p>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
+                    <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span className="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
+                    <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span className="visually-hidden">Next</span>
                     </button>
                 </div>
             </section>
