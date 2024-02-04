@@ -106,4 +106,8 @@ h2 span {
     background-size: cover;
     background-position: center;
 }
+
+.quote-icon, .reviewer-name {
+    color: var(--primary-color)
+}
 /* Customers Review Section End */
