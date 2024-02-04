@@ -155,11 +155,15 @@ const Home = () => {
 
             </section>
             <section className="customers-review container-fluid px-md-4 px-sm-4 px-2 py-5">
-                <h2 className="fw-bolder text-center"><span>CUSTOMERS</span> REVIEW</h2>
+                <h2 className="fw-bolder text-center text-white"><span>CUSTOMERS</span> REVIEW</h2>
                 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                        <img src="..." class="d-block w-100" alt="..."/>
+                            <div className="text-center mt-4">
+                            <i class="bi bi-chat-square-quote display-2 text-white quote-icon"></i>
+                            </div>
+                            <h3 className="fw-semibold mt-4 text-white fst-italic">"Revolutionizing my car care experience, AutoConnect stands out with unparalleled service, reliability, and affordability. A true gem in the market, making high-quality services accessible to everyone."</h3>
+                            <p className="mt-4 fw-bolder text-white reviewer-name">Sarah Johnson</p>
                         </div>
                         <div class="carousel-item">
                         <img src="..." class="d-block w-100" alt="..."/>
