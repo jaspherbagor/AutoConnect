@@ -51,18 +51,12 @@ const ClientFooter = () => {
               </a>
             </div>
             <div className="col-lg-2 col-md-4 col-sm-6 col-12 text-lg-start text-md-start text-sm-start text-center text-white mb-4">
-            <h5 className="fw-bolder mb-4">CUSTOMER SERVICE</h5>
+            <h5 className="fw-bolder mb-4">MY ACCOUNT</h5>
               <a href="" className="text-decoration-none text-white">
-                <p className="footer-link">Contact Us</p>
+                <p className="footer-link">Account</p>
               </a>
               <a href="" className="text-decoration-none text-white">
-              <p className="footer-link">FAQs</p>
-              </a>
-              <a href="" className="text-decoration-none text-white">
-              <p className="footer-link">Privacy Policy</p>
-              </a>
-              <a href="" className="text-decoration-none text-white">
-              <p className="footer-link">Terms & Condition</p>
+              <p className="footer-link">Purchases</p>
               </a>
             </div>
             <div className="col-lg-2 col-md-4 col-sm-6 col-12 text-lg-start text-md-start text-sm-start text-center text-white mb-4">
