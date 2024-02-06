@@ -6,10 +6,10 @@ const About = () => {
     <div>
         <ClientNavbar/>
 
-        <section>
-            <h2>This is an about page</h2>
+        <section className="vh-100">
+            <h2 className="mt-5 ">This is an about page</h2>
         </section>
-        
+
         <ClientFooter/>
     </div>
   )
