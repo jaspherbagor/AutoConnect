@@ -7,9 +7,9 @@ const ClientFooter = () => {
         <section className="footer container-fluid px-md-4 px-sm-4 px-2 py-5 bg-black">
           <div className="row">
             <div className="col-lg-2 col-md-4 col-sm-6 col-12 text-lg-start text-md-start text-sm-start text-center d-flex justify-content-center align-items-center">
-              <a href="">
+              <Link to="/">
                 <img src="../images/logo.svg" alt="" className="img-fluid" />
-              </a>
+              </Link>
             </div>
             <div className="col-lg-2 col-md-4 col-sm-6 col-12 text-lg-start text-md-start text-sm-start text-center text-white mb-4">
               <h5 className="fw-bolder mb-4">CUSTOMER SERVICE</h5>
