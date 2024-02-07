@@ -8,7 +8,7 @@ const ClientFooter = () => {
           <div className="row">
             <div className="col-lg-2 col-md-4 col-sm-6 col-12 text-lg-start text-md-start text-sm-start text-center d-flex justify-content-center align-items-center">
               <Link to="/">
-                <img src="../images/logo.svg" alt="" className="img-fluid" />
+                <img src="../images/logo.svg" alt="logo" className="img-fluid" />
               </Link>
             </div>
             <div className="col-lg-2 col-md-4 col-sm-6 col-12 text-lg-start text-md-start text-sm-start text-center text-white mb-4">
