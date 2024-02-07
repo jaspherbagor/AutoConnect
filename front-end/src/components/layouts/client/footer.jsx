@@ -46,9 +46,9 @@ const ClientFooter = () => {
               <Link to="/" className="text-decoration-none text-white footer-link">
                 <p className="footer-link">Home</p>
               </Link>
-              <a href="" className="text-decoration-none text-white footer-link">
+              <Link to="/about" className="text-decoration-none text-white footer-link">
                 <p className="footer-link">About</p>
-              </a>
+              </Link>
               <a href="" className="text-decoration-none text-white footer-link">
                 <p className="footer-link">Services</p>
               </a>
