@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../styles/client/footer.css';
+import { Link } from 'react-router-dom';
 const ClientFooter = () => {
   return (
     <div>
