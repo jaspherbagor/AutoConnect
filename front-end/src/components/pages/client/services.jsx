@@ -4,7 +4,11 @@ import ClientFooter from '../../layouts/client/footer';
 
 const Services = () => {
   return (
-    <div>S</div>
+    <div>
+        <ClientNavbar />
+
+        <ClientFooter />
+    </div>
   )
 }
 
