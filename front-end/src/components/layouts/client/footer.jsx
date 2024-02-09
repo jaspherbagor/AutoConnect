@@ -31,9 +31,9 @@ const ClientFooter = () => {
               <a href="" className="text-decoration-none text-white footer-link">
                 <p className="footer-link">Denting & Painting</p>
               </a>
-              <a href="" className="text-decoration-none text-white footer-link">
+              <Link to="" className="text-decoration-none text-white footer-link">
                 <p className="footer-link">Major Repair</p>
-              </a>
+              </Link>
               <Link to="" className="text-decoration-none text-white footer-link">
                 <p className="footer-link">Car Detailing</p>
               </Link>
