@@ -13,9 +13,9 @@ const ClientFooter = () => {
             </div>
             <div className="col-lg-2 col-md-4 col-sm-6 col-12 text-lg-start text-md-start text-sm-start text-center text-white mb-4">
               <h5 className="fw-bolder mb-4">CUSTOMER SERVICE</h5>
-              <a href="" className="text-decoration-none text-white footer-link">
+              <Link href="" className="text-decoration-none text-white footer-link">
                 <p className="footer-link">Contact Us</p>
-              </a>
+              </Link>
               <Link to="" className="text-decoration-none text-white footer-link">
                 <p className="footer-link">FAQs</p>
               </Link>
