@@ -25,7 +25,7 @@ const ClientNavbar = () => {
                             </li>
 
                             <li className="nav-item">
-                                <Link className="nav-link fw-semibold me-3 text-black" to=""><i className="bi bi-patch-question fs-5"></i> FAQS</Link>
+                                <Link className="nav-link fw-semibold me-3 text-black" to="/faqs"><i className="bi bi-patch-question fs-5"></i> FAQS</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link fw-semibold me-3 text-black" href=""><i className="bi bi-telephone-outbound fs-5"></i> CONTACT</Link>
