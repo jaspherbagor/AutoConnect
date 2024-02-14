@@ -1,5 +1,5 @@
 import React from 'react'
-
+import ClientNavbar from '../../layouts/client/navbar'
 const Faqs = () => {
   return (
     <div>
