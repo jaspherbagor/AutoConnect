@@ -4,6 +4,7 @@ import Home from '../pages/client/home';
 import About from '../pages/client/about';
 import Services from '../pages/client/services';
 import Faqs from '../pages/client/faqs';
+import Contact from '../pages/client/contact';
 const RouteWay = () => {
   return (
     <div>
