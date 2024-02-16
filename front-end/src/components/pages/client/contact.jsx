@@ -10,25 +10,68 @@ const Contact = () => {
         <h2 className="fw-bolder text-center pt-5 mt-4">CONTACT FORM</h2>
       </section>
       <section className="contact-section container-fluid px-md-4 px-sm-4 px-3 py-5">
-        <div className="container col-8 text-start">
+        <div className="container col-10 text-start">
           <form>
-            <div className="mb-3">
-              <label htmlFor="email" className="form-label">Email address</label>
-              <input type="email" className="form-control" id="email" />
+            <div className="row">
+              <div className="col-md-6">
+                <div className="mb-3">
+                  <label htmlFor="name" className="form-label">Name</label>
+                  <input type="text" className="form-control" id="name" name="name" />
+                </div>
+              </div>
+              <div className="col-md-6">
+                <div className="mb-3">
+                  <label htmlFor="email" className="form-label">Email</label>
+                  <input type="email" className="form-control" id="email" name="email" />
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-md-6">
+
+                </div>
+                <div className="col-md-6">
+
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-md-6">
+
+                </div>
+                <div className="col-md-6">
+                  
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-md-6">
+
+                </div>
+                <div className="col-md-6">
+                  
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-md-6">
+
+                </div>
+                <div className="col-md-6">
+                  
+                </div>
+              </div>
+
+              <div className="mb-3">
+                <label htmlFor="message" className="form-label">
+                  Message
+                </label>
+                <textarea name="message" id="message" cols="30" rows="10" className="w-100 form-control"></textarea>
+              </div>
             </div>
-            <div className="mb-3">
-              <label htmlFor="exampleInputPassword1" className="form-label">
-                Password
-              </label>
-              <input type="password" className="form-control" id="exampleInputPassword1"/>
-            </div>
-            
+
             <button type="submit" className="btn btn-primary">
               Submit
             </button>
           </form>
         </div>
-        
+
       </section>
 
       <ClientFooter />
