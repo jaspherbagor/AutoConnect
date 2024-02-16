@@ -6,9 +6,10 @@ const Contact = () => {
   return (
     <div>
       <ClientNavbar />
-
+      <section className="contact-heading container-fluid px-md-4 px-sm-4 px-3 py-5">
+        <h2 className="fw-bolder text-center pt-5 mt-4">CONTACT FORM</h2>
+      </section>
       <section className="contact-section container-fluid px-md-4 px-sm-4 px-3 py-5">
-        <h2 className="text-center pt-5 fw-bolder">CONTACT FORM</h2>
         <div className="container col-8 text-start">
           <form>
             <div className="mb-3">
