@@ -25,20 +25,33 @@ const Contact = () => {
                   <input type="email" className="form-control" id="email" name="email" />
                 </div>
               </div>
+            </div>
               <div className="row">
                 <div className="col-md-6">
-
+                  <div className="mb-3">
+                    <label htmlFor="name" className="form-label">Name</label>
+                    <input type="text" className="form-control" id="name" name="name" />
+                  </div>
                 </div>
                 <div className="col-md-6">
-
+                  <div className="mb-3">
+                    <label htmlFor="name" className="form-label">Name</label>
+                    <input type="text" className="form-control" id="name" name="name" />
+                  </div>
                 </div>
               </div>
               <div className="row">
                 <div className="col-md-6">
-
+                  <div className="mb-3">
+                    <label htmlFor="name" className="form-label">Name</label>
+                    <input type="text" className="form-control" id="name" name="name" />
+                  </div>
                 </div>
                 <div className="col-md-6">
-                  
+                  <div className="mb-3">
+                    <label htmlFor="name" className="form-label">Name</label>
+                    <input type="text" className="form-control" id="name" name="name" />
+                  </div>
                 </div>
               </div>
               <div className="row">
@@ -64,7 +77,6 @@ const Contact = () => {
                 </label>
                 <textarea name="message" id="message" cols="30" rows="10" className="w-100 form-control"></textarea>
               </div>
-            </div>
 
             <button type="submit" className="btn btn-primary">
               Submit
