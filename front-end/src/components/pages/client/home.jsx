@@ -7,7 +7,7 @@ const Home = () => {
         <div>
             <ClientNavbar />
 
-            <section className="hero-section container-fluid px-md-4 px-sm-4 px-2 py-5  d-flex align-items-center justify-content-center">
+            <section className="hero-section container-fluid px-md-4 px-sm-4 px-3 py-5  d-flex align-items-center justify-content-center">
                 <div className="row mt-5">
                     <div className="col-md-6 d-flex align-items-center justify-content-center mb-md-0 mb-sm-5 mb-5">
                         <div className="container-fluid text-start">
@@ -23,7 +23,7 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-            <section className="feature-section container-fluid px-md-4 px-sm-4 px-2 py-5">
+            <section className="feature-section container-fluid px-md-4 px-sm-4 px-3 py-5">
                 <div className="row mt-5">
                     <div className="col-lg-3 col-md-4 col-sm-6 col-12 feature-type mb-4">
                         <div className="row gap-0">
@@ -95,7 +95,7 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-            <section className="services-offered container-fluid px-md-4 px-sm-4 px-2 py-5">
+            <section className="services-offered container-fluid px-md-4 px-sm-4 px-3 py-5">
                 <h2 className="fw-bolder text-center"><span>SERVICES</span> OFFERED</h2>
                 <div className="row mt-5">
                     <div className="col-lg-3 col-md-4 col-sm-6">
@@ -154,7 +154,7 @@ const Home = () => {
                 </div>
 
             </section>
-            <section className="customers-review container-fluid px-md-4 px-sm-4 px-2 py-5">
+            <section className="customers-review container-fluid px-md-4 px-sm-4 px-3 py-5">
                 <h2 className="fw-bolder text-center text-white"><span>CUSTOMERS</span> REVIEW</h2>
                 <div id="carouselExampleAutoplaying" className="carousel slide carousel-fade" data-bs-ride="carousel">
                     <div className="carousel-inner">
