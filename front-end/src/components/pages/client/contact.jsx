@@ -29,14 +29,14 @@ const Contact = () => {
               <div className="row">
                 <div className="col-md-6">
                   <div className="mb-3">
-                    <label htmlFor="name" className="form-label">Name</label>
-                    <input type="text" className="form-control" id="name" name="name" />
+                    <label htmlFor="contactnumber" className="form-label">Contact Number</label>
+                    <input type="text" className="form-control" id="contactnumber" name="contactnumber" />
                   </div>
                 </div>
                 <div className="col-md-6">
                   <div className="mb-3">
-                    <label htmlFor="name" className="form-label">Name</label>
-                    <input type="text" className="form-control" id="name" name="name" />
+                    <label htmlFor="zipcode" className="form-label">Zip/Postal Code</label>
+                    <input type="number" className="form-control" id="zipcode" name="zipcode" />
                   </div>
                 </div>
               </div>
