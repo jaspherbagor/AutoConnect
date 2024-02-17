@@ -27,3 +27,7 @@ html, body {
     --font-family: 'Inter', sans-serif;
 }
 
+.contact-heading {
+    background: url('/images/contact-bg.svg');
+    
+}
