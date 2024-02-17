@@ -43,8 +43,8 @@ const Contact = () => {
               <div className="row">
                 <div className="col-md-6">
                   <div className="mb-3">
-                    <label htmlFor="name" className="form-label">Name</label>
-                    <input type="text" className="form-control" id="name" name="name" />
+                    <label htmlFor="address" className="form-label">Address</label>
+                    <input type="text" className="form-control" id="address" name="address" />
                   </div>
                 </div>
                 <div className="col-md-6">
