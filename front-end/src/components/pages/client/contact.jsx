@@ -51,12 +51,12 @@ const Contact = () => {
                   <div className="mb-3">
                     <label htmlFor="typeofservice" className="form-label">Type of Service</label>
                     <select name="typeofservice" id="typeofservice" className="form-control">
-                      <option value="">Select type of service</option>
-                      <option value=""></option>
-                      <option value=""></option>
-                      <option value=""></option>
-                      <option value=""></option>
-                      <option value=""></option>
+                      <option value="">-- Select type of service --</option>
+                      <option value="denting-and-painting">Denting and Painting</option>
+                      <option value="major-repair">Major Repair</option>
+                      <option value="car-detailing">Car Detailing</option>
+                      <option value="battery-replacement">Battery Replacement</option>
+                      <option value="other">Other</option>
                     </select>
                   </div>
                 </div>
