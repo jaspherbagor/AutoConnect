@@ -28,6 +28,6 @@ html, body {
 }
 
 .contact-heading {
-    background: url('/images/contact-bg.svg');
-    
+    background: url('../../../../public/images/contact-bg.svg');
+
 }
