@@ -49,8 +49,15 @@ const Contact = () => {
                 </div>
                 <div className="col-md-6">
                   <div className="mb-3">
-                    <label htmlFor="name" className="form-label">Name</label>
-                    <input type="text" className="form-control" id="name" name="name" />
+                    <label htmlFor="typeofservice" className="form-label">Type of Service</label>
+                    <select name="typeofservice" id="typeofservice" className="form-control">
+                      <option value="">Select type of service</option>
+                      <option value=""></option>
+                      <option value=""></option>
+                      <option value=""></option>
+                      <option value=""></option>
+                      <option value=""></option>
+                    </select>
                   </div>
                 </div>
               </div>
