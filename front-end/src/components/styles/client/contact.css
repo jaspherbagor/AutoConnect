@@ -29,5 +29,7 @@ html, body {
 
 .contact-heading {
     background: url('../../../../public/images/contact-bg.svg');
-
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
 }

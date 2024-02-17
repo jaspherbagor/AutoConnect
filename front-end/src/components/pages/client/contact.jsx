@@ -8,7 +8,7 @@ const Contact = () => {
     <div>
       <ClientNavbar />
       <section className="contact-heading container-fluid px-md-4 px-sm-4 px-3 py-5 bg-success">
-        <h2 className="fw-bolder text-center pt-5 mt-4">CONTACT FORM</h2>
+        <h2 className="fw-bolder text-center pt-5 mt-4 text-white">CONTACT FORM</h2>
       </section>
       <section className="contact-section container-fluid px-md-4 px-sm-4 px-3 py-5">
         <div className="container col-10 text-start">
