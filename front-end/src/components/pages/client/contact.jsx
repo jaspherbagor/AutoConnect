@@ -54,22 +54,6 @@ const Contact = () => {
                   </div>
                 </div>
               </div>
-              <div className="row">
-                <div className="col-md-6">
-
-                </div>
-                <div className="col-md-6">
-                  
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-md-6">
-
-                </div>
-                <div className="col-md-6">
-                  
-                </div>
-              </div>
 
               <div className="mb-3">
                 <label htmlFor="message" className="form-label">
