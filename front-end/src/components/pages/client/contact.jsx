@@ -8,10 +8,10 @@ const Contact = () => {
     <div>
       <ClientNavbar />
       <section className="contact-heading container-fluid px-md-4 px-sm-4 px-3 py-5 bg-success">
-        <h2 className="fw-bolder text-center pt-5 mt-4 text-white">CONTACT FORM</h2>
+        <h2 className="fw-bolder text-center pt-5 pb-3 mt-4 text-white">CONTACT FORM</h2>
       </section>
       <section className="contact-section container-fluid px-md-4 px-sm-4 px-3 py-5">
-        <div className="container col-10 text-start">
+        <div className="container col-md-10 col-sm-10 col-12 text-start">
           <form>
             <div className="row">
               <div className="col-md-6">
@@ -67,10 +67,10 @@ const Contact = () => {
                 <label htmlFor="message" className="form-label">
                   Message
                 </label>
-                <textarea name="message" id="message" cols="30" rows="10" className="w-100 form-control"></textarea>
+                <textarea name="message" id="message" className="w-100 form-control"></textarea>
               </div>
 
-            <button type="submit" className="btn btn-primary">
+            <button type="submit" className="btn btn-primary contact-btn fw-semibold px-3 py-2">
               Submit
             </button>
           </form>
