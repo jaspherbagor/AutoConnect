@@ -28,5 +28,6 @@ html, body {
 }
 
 .login-container {
-    width: 390px
+    width: 390px;
+    border-radius: 10px
 }
