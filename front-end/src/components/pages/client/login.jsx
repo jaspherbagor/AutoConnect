@@ -31,7 +31,7 @@ const Login = () => {
               </button>
             </div>
             <div className="text-center mt-4 mb-0">
-              <p>Don't have an account yet? <Link to="/" className="text-decoration-none register-link">Register</Link> instead. </p>
+              <p>Don't have an account yet? <Link to="/" className="text-decoration-none register-link fw-semibold">Register</Link> instead. </p>
             </div>
           </form>
 

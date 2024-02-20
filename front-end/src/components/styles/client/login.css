@@ -24,10 +24,19 @@ html, body {
     --text-color-light: #fff;
     --text-color-dark: #000;
     --grayish-color: #f1f1f1;
+    --link-hover: rgb(16, 204, 16);
     --font-family: 'Inter', sans-serif;
 }
 
 .login-container {
     width: 390px;
     border-radius: 10px
+}
+
+.register-link {
+    color: var(--text-color-dark)
+}
+
+.register-link:hover {
+    color: var(--link-hover)
 }
