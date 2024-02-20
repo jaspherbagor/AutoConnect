@@ -14,16 +14,16 @@ const Login = () => {
           <h2 className="fw-bolder text-center">LOGIN ACCOUNT</h2>
 
           <form className="text-start">
-            <div class="mb-3">
-              <label htmlFor="email" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="email" name="email" />
+            <div className="mb-3">
+              <label htmlFor="email" className="form-label">Email address</label>
+              <input type="email" className="form-control" id="email" name="email" />
             </div>
-            <div class="mb-3">
-              <label htmlFor="password" class="form-label">Password</label>
-              <input type="password" class="form-control" id="password" name="password"/>
+            <div className="mb-3">
+              <label htmlFor="password" className="form-label">Password</label>
+              <input type="password" className="form-control" id="password" name="password"/>
             </div>
             <div className="text-center mt-4">
-              <button type="submit" class="btn btn-primary">
+              <button type="submit" className="btn btn-primary">
                 Submit
               </button>
             </div>
