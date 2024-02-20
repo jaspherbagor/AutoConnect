@@ -10,13 +10,13 @@ const Login = () => {
       <ClientNavbar />
 
       <section className="login-section container-fluid px-md-4 px-sm-4 px-3 py-5 d-flex align-items-center justify-content-center">
-        <div className="login-container container py-5 mt-5 px-3">
+        <div className="login-container container py-4 mt-5 px-3">
           <Link to="/">
             <img src="../images/logo.svg" alt="logo" className="mb-3" />
           </Link>
-          <h2 className="fw-bolder text-center">LOGIN ACCOUNT</h2>
+          <h2 className="fw-bolder text-center mb-4">LOGIN ACCOUNT</h2>
 
-          <form className="text-start">
+          <form className="text-start mb-0 py-0">
             <div className="mb-3">
               <label htmlFor="email" className="form-label">Email address</label>
               <input type="email" className="form-control" id="email" name="email" />

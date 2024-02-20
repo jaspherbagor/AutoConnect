@@ -24,7 +24,7 @@ html, body {
     --text-color-light: #fff;
     --text-color-dark: #000;
     --grayish-color: #f1f1f1;
-    --link-hover: rgb(16, 204, 16);
+    --link-hover: rgb(12, 108, 12);
     --font-family: 'Inter', sans-serif;
 }
 
@@ -36,9 +36,10 @@ html, body {
 }
 
 .login-container {
-    width: 390px;
+    width: 360px;
     border-radius: 10px;
-    backdrop-filter: blur(10px);
+    background: rgba(250,250,250,0.6);
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 
 .register-link {
