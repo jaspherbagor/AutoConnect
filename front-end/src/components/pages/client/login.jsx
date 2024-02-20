@@ -1,6 +1,7 @@
 import React from 'react'
 import ClientNavbar from '../../layouts/client/navbar';
 import ClientFooter from '../../layouts/client/footer';
+
 const Login = () => {
   return (
     <div>
@@ -13,12 +14,12 @@ const Login = () => {
 
           <form className="text-start">
             <div class="mb-3">
-              <label htmlFor="exampleInputEmail1" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1"/>
+              <label htmlFor="email" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="email" name="email" />
             </div>
             <div class="mb-3">
-              <label htmlFor="exampleInputPassword1" class="form-label">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1"/>
+              <label htmlFor="password" class="form-label">Password</label>
+              <input type="password" class="form-control" id="password" name="password"/>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
           </form>
