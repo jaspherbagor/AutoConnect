@@ -28,6 +28,13 @@ html, body {
     --font-family: 'Inter', sans-serif;
 }
 
+.login-section {
+    background: url('../../../../public/images/login-bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
+}
+
 .login-container {
     width: 390px;
     border-radius: 10px;
