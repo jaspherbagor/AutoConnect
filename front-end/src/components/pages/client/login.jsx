@@ -23,8 +23,8 @@ const Login = () => {
               <input type="password" className="form-control" id="password" name="password"/>
             </div>
             <div className="text-center mt-4">
-              <button type="submit" className="btn btn-primary">
-                Submit
+              <button type="submit" className="btn btn-primary fw-semibold px-3 py-2 login-btn">
+                LOGIN
               </button>
             </div>
           </form>
