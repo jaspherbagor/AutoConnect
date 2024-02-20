@@ -30,7 +30,8 @@ html, body {
 
 .login-container {
     width: 390px;
-    border-radius: 10px
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
 }
 
 .register-link {

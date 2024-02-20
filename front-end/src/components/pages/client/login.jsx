@@ -10,7 +10,7 @@ const Login = () => {
       <ClientNavbar />
 
       <section className="container-fluid px-md-4 px-sm-4 px-3 py-5 d-flex align-items-center justify-content-center">
-        <div className="login-container container bg-success py-5 mt-5 px-3">
+        <div className="login-container container py-5 mt-5 px-3">
           <Link to="/">
             <img src="../images/logo.svg" alt="logo" className="mb-3" />
           </Link>
