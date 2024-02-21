@@ -24,7 +24,9 @@ const Login = () => {
             <div className="mb-3">
               <label htmlFor="password" className="form-label">Password</label>
               <input type="password" className="form-control" id="password" name="password"/>
-              
+              <span id="view-pass-icon">
+                <i className="bi bi-eye fs-4"></i>
+              </span>
             </div>
             <div className="text-center mt-4">
               <button type="submit" className="btn btn-primary fw-semibold px-3 py-2 login-btn">
