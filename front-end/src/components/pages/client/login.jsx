@@ -24,6 +24,7 @@ const Login = () => {
             <div className="mb-3">
               <label htmlFor="password" className="form-label">Password</label>
               <input type="password" className="form-control" id="password" name="password"/>
+              
             </div>
             <div className="text-center mt-4">
               <button type="submit" className="btn btn-primary fw-semibold px-3 py-2 login-btn">
@@ -31,7 +32,7 @@ const Login = () => {
               </button>
             </div>
             <div className="text-center mt-4 mb-0">
-              <p>Don't have an account yet? <Link to="/" className="text-decoration-none register-link fw-semibold">Register</Link> instead. </p>
+              <p>Don't have an account yet? <Link to="/" className="text-decoration-none register-link fw-semibold text-danger">Register</Link> instead. </p>
             </div>
           </form>
 
