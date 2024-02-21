@@ -6,7 +6,7 @@ import Services from '../pages/client/services';
 import Faqs from '../pages/client/faqs';
 import Contact from '../pages/client/contact';
 import Login from '../pages/client/login';
-
+import Register from '../pages/client/register';
 const RouteWay = () => {
   return (
     <div>
@@ -18,6 +18,7 @@ const RouteWay = () => {
             <Route path="/faqs" element={<Faqs/>} />
             <Route path="/contact" element={<Contact/>} />
             <Route path="/login" element={<Login/>} />
+            <Route path="/register" element={<Register />} />
             {/* Client Routes End */}
         </Routes>
     </div>
