@@ -20,5 +20,6 @@ const connection = mysql.createConnection({
 
 
 
+
 console.log(process.env.host);
 console.log(process.env.password)
