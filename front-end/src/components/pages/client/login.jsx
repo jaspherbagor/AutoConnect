@@ -30,9 +30,9 @@ const Login = () => {
           <Link to="/">
             <img src="../images/logo.svg" alt="logo" className="mb-3" />
           </Link>
-          <h2 className="fw-bolder text-center mb-4">LOGIN ACCOUNT</h2>
+          <h2 className="fw-bolder text-center mb-4 text-white">LOGIN ACCOUNT</h2>
 
-          <form className="text-start mb-0 py-0">
+          <form className="text-start mb-0 py-0 text-white">
             <div className="mb-3">
               <label htmlFor="email" className="form-label">Email address</label>
               <input type="email" className="form-control" id="email" name="email" />
@@ -41,7 +41,7 @@ const Login = () => {
               <label htmlFor="password" className="form-label">Password</label>
               <div className="d-flex">
                 <input type="password" className="form-control" id="password" name="password"/>
-                <span className="togglerIcon">
+                <span className="togglerIcon text-black">
                   <i className="bi bi-eye fs-4 position-absolute" id="togglePassword" onClick={togglePassword}></i>
                 </span>
               </div>
