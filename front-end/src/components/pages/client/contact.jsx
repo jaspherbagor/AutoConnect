@@ -4,6 +4,10 @@ import ClientFooter from '../../layouts/client/footer';
 import '../../styles/client/contact.css'
 
 const Contact = () => {
+  const submitContact = () => {
+    
+  }
+
   return (
     <div>
       <ClientNavbar />
