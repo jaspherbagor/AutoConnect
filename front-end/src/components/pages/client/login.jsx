@@ -5,6 +5,22 @@ import ClientFooter from '../../layouts/client/footer';
 import '../../styles/client/login.css'
 
 const Login = () => {
+  const togglePassword = function() {
+    const password = document.getElementById('password');
+    const toggleVisibility = document.getElementById('togglePassword');
+
+    if(password.type === "password") {
+      password.type = "text";
+      toggleVisibility.className = "bi bi-eye-slash fs-4 position-absolute"
+    } else {
+      password.type = "password";
+      toggleVisibility.className = "bi bi-eye fs-4 position-absolute"
+    }
+  }
+
+
+
+
   return (
     <div>
       <ClientNavbar />
@@ -26,7 +42,7 @@ const Login = () => {
               <div className="d-flex">
                 <input type="password" className="form-control" id="password" name="password"/>
                 <span className="togglerIcon">
-                  <i className="bi bi-eye fs-4 position-absolute" id="togglePassword"></i>
+                  <i className="bi bi-eye fs-4 position-absolute" id="togglePassword" onClick={togglePassword}></i>
                 </span>
               </div>
             </div>
