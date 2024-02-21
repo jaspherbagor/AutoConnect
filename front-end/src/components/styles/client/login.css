@@ -45,3 +45,9 @@ html, body {
 .register-link:hover {
     color: var(--link-hover) !important
 }
+
+.togglerIcon i {
+    margin-left: -37px;
+    z-index: 200;
+    cursor: pointer;
+}
