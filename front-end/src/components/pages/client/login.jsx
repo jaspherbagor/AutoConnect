@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import ClientNavbar from '../../layouts/client/navbar';
-import ClientFooter from '../../layouts/client/footer';
 import '../../styles/client/login.css'
 
 const Login = () => {
@@ -59,7 +58,6 @@ const Login = () => {
         </div>
       </section>
 
-      <ClientFooter />
     </div>
   )
 }
