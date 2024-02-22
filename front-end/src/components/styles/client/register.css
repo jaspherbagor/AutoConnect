@@ -28,8 +28,8 @@ html, body {
     --font-family: 'Inter', sans-serif;
 }
 
-.registration-section {
-    background: url('');
+.register-section {
+    background: url('../../../../public/images/register-bg.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -39,5 +39,6 @@ html, body {
 .registration-container {
     width: 380px;
     border-radius: 10px;
-    background: rgba(0,0,0,0.5)
+    background: rgba(0,0,0,0.5);
+
 }
