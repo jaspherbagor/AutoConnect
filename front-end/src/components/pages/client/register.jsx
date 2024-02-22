@@ -8,7 +8,7 @@ const Register = () => {
       <ClientNavbar />
 
       <section className="register-section container-fluid px-md-4 px-sm-4 px-3 py-5 d-flex justify-content-center align-items-center">
-        <div className="registration-container container bg-warning text-white mt-5 py-4 px-3">
+        <div className="registration-container container text-white mt-5 py-4 px-3">
           <Link to="/">
             <img src="../images/logo.svg" alt="logo" />
           </Link>
