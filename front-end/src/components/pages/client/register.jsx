@@ -1,7 +1,7 @@
 import React from 'react'
 import ClientNavbar from './../../layouts/client/navbar';
 import { Link } from 'react-router-dom';
-
+import '../../styles/client/register.css'
 const Register = () => {
   return (
     <div>

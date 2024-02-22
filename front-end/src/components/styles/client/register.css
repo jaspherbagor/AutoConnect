@@ -27,3 +27,10 @@ html, body {
     --grayish-color: #f1f1f1;
     --font-family: 'Inter', sans-serif;
 }
+
+.registration-section {
+    background: url('');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
