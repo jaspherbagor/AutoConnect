@@ -8,7 +8,9 @@ const Register = () => {
 
       <section className="register-section container-fluid px-md-4 px-sm-4 px-3 py-5 d-flex justify-content-center align-items-center">
         <div className="container-fluid">
-
+          <Link>
+            <img src="../images/logo.svg" alt="" />
+          </Link>
           <h2 className="text-center fw-bolder"></h2>
         </div>
       </section>
