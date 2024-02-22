@@ -22,16 +22,47 @@ const Register = () => {
 
     if (confirmPassword.type === "password") {
       confirmPassword.type = "text";
-      toggleConfirmPassword.className = "bi bi-eye-slash fs-4 position-absolute"
+      toggleConfirmPassword.className = "bi bi-eye-slash mt-1 fs-4 position-absolute"
     } else {
       confirmPassword.type = "password";
-      toggleConfirmPassword.className = "bi bi-eye fs-4 position-absolute"
+      toggleConfirmPassword.className = "bi bi-eye fs-4 mt-1 position-absolute"
     }
   }
 
   const register = () => {
     const registerBtn = document.getElementById('register');
-    const
+    const toastLive = document.getElementById('liveToast');
+    const toastLabel = document.getElementById('toastLabel');
+    const toastMessage = document.getElementById('toastMessage');
+    const toastHeader = document.getElementById('toastHeader');
+    
+    if(registerBtn) {
+      registerBtn.addEventListener("click", function() {
+        const toast = new window.bootstrap.toast(toastLive)
+        const name = document.getElementById('name');
+        const username = document.getElementById('username');
+        const email =document.getElementById('email');
+        const password = document.getElementById('password');
+        const confirmPassword = document.getElementById('confirmPassword');
+
+        if(name.value === "" && username.value === "" && email.value === "" && password.value === "" && confirmPassword.value === "") {
+          toastLabel.innerText = "Opps!!";
+          
+        } else if(name.value === "" || username.value === "" || email.value === "" || password.value === "" || confirmPassword.value === "") {
+          
+        } else if(password.value !== confirmPassword.value) {
+
+        }
+
+
+
+
+
+
+
+      })
+    }
+    
   }
 
 
