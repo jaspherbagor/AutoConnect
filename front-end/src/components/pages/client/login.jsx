@@ -41,7 +41,7 @@ const Login = () => {
               <div className="d-flex">
                 <input type="password" className="form-control" id="password" name="password"/>
                 <span className="togglerIcon text-black">
-                  <i className="bi bi-eye fs-4 position-absolute" id="togglePassword" onClick={togglePassword}></i>
+                  <i className="bi bi-eye fs-4 mt-1 position-absolute" id="togglePassword" onClick={togglePassword}></i>
                 </span>
               </div>
             </div>

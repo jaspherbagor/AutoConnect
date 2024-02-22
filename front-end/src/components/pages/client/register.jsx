@@ -3,6 +3,32 @@ import ClientNavbar from './../../layouts/client/navbar';
 import { Link } from 'react-router-dom';
 import '../../styles/client/register.css'
 const Register = () => {
+  const showPassword = () => {
+    const passKey = document.getElementById('passKey');
+    const togglePassKey = document.getElementById('togglePassKey');
+
+    if(passKey.type === "password") {
+      passKey.type = "text";
+      togglePassKey.className = "bi bi-eye-slash fs-4 position-absolute";
+    } else {
+      passKey.type = "password";
+      togglePassKey.className = "bi bi-eye fs-4 position-absolute";
+    }
+  }
+
+  const showConfirmPassword = () => {
+    const confirmPassword = document.getElementById('confirmPassword');
+    const toggleConfirmPassword = document.getElementById('toggleConfirmPassword');
+
+    if(confirmPassword.type === "password") {
+      confirmPassword.type = "text";
+      toggleConfirmPassword.className = "bi bi-eye-slash fs-4 position-absolute"
+    } else {
+      confirmPassword.type = "password";
+      toggleConfirmPassword.className = "bi bi-eye fs-4 position-absolute"
+    }
+  }
+
   return (
     <div>
       <ClientNavbar />
@@ -27,11 +53,11 @@ const Register = () => {
               <input type="email" className="form-control" id="email" name="email"/>
             </div>
             <div className="mb-3">
-              <label htmlFor="password" className="form-label">Password</label>
+              <label htmlFor="passKey" className="form-label">Password</label>
               <div className="d-flex">
-                <input type="password" className="form-control" id="password" name="password"/>
+                <input type="password" className="form-control" id="passKey" name="passKey"/>
                 <span className="view-password">
-                  <i className="bi bi-eye fs-4 position-absolute" id="togglePassword"></i>
+                <i className="bi bi-eye fs-4 mt-1 position-absolute" id="togglePassKey" onClick={showPassword}></i>
                 </span>
               </div>
             </div>
@@ -40,12 +66,12 @@ const Register = () => {
               <div className="d-flex">
                 <input type="password" className="form-control" id="confirmPassword" name="confirmPassword"/>
                 <span className="view-password">
-                  <i className="bi bi-eye fs-4 position-absolute" id="toggleConfirmPassword"></i>
+                  <i className="bi bi-eye fs-4 mt-1 position-absolute" id="toggleConfirmPassword" onClick={showConfirmPassword}></i>
                 </span>
               </div>
             </div>
             <div className="text-center mt-4">
-              <button type="submit" className="btn btn-success fw-semibold register-btn px-3 py-2">REGISTER</button>
+              <button type="submit" className="btn btn-success fw-semibold register-btn px-3 py-2" id="register">REGISTER</button>
             </div>
             <p className="text-center mt-4">Already have an account? <Link className="login-link text-decoration-none">Login</Link> instead.</p>
           </form>
