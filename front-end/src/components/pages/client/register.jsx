@@ -73,7 +73,7 @@ const Register = () => {
             <div className="text-center mt-4">
               <button type="submit" className="btn btn-success fw-semibold register-btn px-3 py-2" id="register">REGISTER</button>
             </div>
-            <p className="text-center mt-4">Already have an account? <Link className="login-link text-decoration-none">Login</Link> instead.</p>
+            <p className="text-center mt-4">Already have an account? <Link to="/login" className="login-link text-decoration-none fw-semibold">Login</Link> instead.</p>
           </form>
         </div>
       </section>
