@@ -28,11 +28,21 @@ const Register = () => {
             </div>
             <div className="mb-3">
               <label for="password" className="form-label">Password</label>
-              <input type="password" className="form-control" id="password" name="password"/>
+              <div className="d-flex">
+                <input type="password" className="form-control" id="password" name="password"/>
+                <span className="view-password">
+                <i class="bi bi-eye fs-4 position-absolute" id="togglePassword"></i>
+                </span>
+              </div>
             </div>
             <div className="mb-3">
               <label for="confirmPassword" className="form-label">Confirm Password</label>
-              <input type="password" className="form-control" id="confirmPassword" name="confirmPassword"/>
+              <div className="d-flex">
+                <input type="password" className="form-control" id="confirmPassword" name="confirmPassword"/>
+                <span className="view-password">
+                <i class="bi bi-eye fs-4 position-absolute" id="toggleConfirmPassword"></i>
+                </span>
+              </div>
             </div>
             <div className="text-center mt-4">
               <button type="submit" className="btn btn-success fw-semibold register-btn px-3 py-2">REGISTER</button>
