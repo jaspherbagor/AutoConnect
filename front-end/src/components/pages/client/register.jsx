@@ -27,20 +27,20 @@ const Register = () => {
               <input type="email" className="form-control" id="email" name="email"/>
             </div>
             <div className="mb-3">
-              <label for="password" className="form-label">Password</label>
+              <label htmlFor="password" className="form-label">Password</label>
               <div className="d-flex">
                 <input type="password" className="form-control" id="password" name="password"/>
                 <span className="view-password">
-                <i class="bi bi-eye fs-4 position-absolute" id="togglePassword"></i>
+                  <i className="bi bi-eye fs-4 position-absolute" id="togglePassword"></i>
                 </span>
               </div>
             </div>
             <div className="mb-3">
-              <label for="confirmPassword" className="form-label">Confirm Password</label>
+              <label htmlFor="confirmPassword" className="form-label">Confirm Password</label>
               <div className="d-flex">
                 <input type="password" className="form-control" id="confirmPassword" name="confirmPassword"/>
                 <span className="view-password">
-                <i class="bi bi-eye fs-4 position-absolute" id="toggleConfirmPassword"></i>
+                  <i className="bi bi-eye fs-4 position-absolute" id="toggleConfirmPassword"></i>
                 </span>
               </div>
             </div>

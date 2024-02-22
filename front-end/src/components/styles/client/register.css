@@ -60,3 +60,9 @@ html, body {
 .login-link:hover {
     color: var(--link-hover)
 }
+
+#togglePassword, #toggleConfirmPassword {
+    margin-left: -37px;
+    color:var(--text-color-dark);
+    z-index: 200;
+}
