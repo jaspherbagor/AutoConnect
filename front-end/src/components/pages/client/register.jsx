@@ -7,7 +7,7 @@ const Register = () => {
       <ClientNavbar />
 
       <section className="register-section container-fluid px-md-4 px-sm-4 px-3 py-5 d-flex justify-content-center align-items-center">
-        <div className="registration-container container bg-warning mt-5 py-4 px-3">
+        <div className="registration-container container bg-warning text-white mt-5 py-4 px-3">
           <Link to="/">
             <img src="../images/logo.svg" alt="logo" />
           </Link>
@@ -33,8 +33,8 @@ const Register = () => {
               <label for="confirmPassword" className="form-label">Confirm Password</label>
               <input type="password" className="form-control" id="confirmPassword" name="confirmPassword"/>
             </div>
-            <div className="text-center">
-              <button type="submit" className="btn btn-success">Submit</button>
+            <div className="text-center mt-4">
+              <button type="submit" className="btn btn-success fw-semibold register-btn px-3 py-2">REGISTER</button>
             </div>
           </form>
         </div>
