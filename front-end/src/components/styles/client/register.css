@@ -23,6 +23,7 @@ html, body {
     --navbar-bg: #e4e2e2;
     --text-color-light: #fff;
     --text-color-dark: #000;
+    --link-hover: rgb(12, 108, 12);
     --grayish-color: #f1f1f1;
     --font-family: 'Inter', sans-serif;
 }
