@@ -7,11 +7,11 @@ const Register = () => {
       <ClientNavbar/>
 
       <section className="register-section container-fluid px-md-4 px-sm-4 px-3 py-5 d-flex justify-content-center align-items-center">
-        <div className="container-fluid">
-          <Link>
-            <img src="../images/logo.svg" alt="" />
+        <div className="container bg-success mt-5">
+          <Link to="/">
+            <img src="../images/logo.svg" alt="logo" />
           </Link>
-          <h2 className="text-center fw-bolder"></h2>
+          <h2 className="text-center fw-bolder">REGISTER ACCOUNT</h2>
         </div>
       </section>
     </div>
