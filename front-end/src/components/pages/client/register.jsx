@@ -37,6 +37,7 @@ const Register = () => {
             <div className="text-center mt-4">
               <button type="submit" className="btn btn-success fw-semibold register-btn px-3 py-2">REGISTER</button>
             </div>
+            <p className="text-center">Already have an account? <Link className="login-link text-decoration-none">Login</Link> instead.</p>
           </form>
         </div>
       </section>
