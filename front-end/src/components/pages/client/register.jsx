@@ -30,6 +30,7 @@ const Register = () => {
   }
 
   const register = () => {
+    // alert('No data inputted');
     const registerBtn = document.getElementById('register');
     
     const showToast = (label, message, color, border, background) => {
@@ -46,29 +47,23 @@ const Register = () => {
       toastLive.style.border = `2px solid ${border}`;
       toastHeader.style.background = background;
       toast.show();
-    }
-    
-    if(registerBtn) {
-      registerBtn.addEventListener("click", function() {
-        const name = document.getElementById('name');
-        const username = document.getElementById('username');
-        const email =document.getElementById('email');
-        const password = document.getElementById('password');
-        const confirmPassword = document.getElementById('confirmPassword');
+    };
 
-        if(name.value === "" && username.value === "" && email.value === "" && password.value === "" && confirmPassword.value === "")
-        {
-          showToast("OPS!!", "No information are inputted!", "#fe0039", "#fe0039", "#fe0039")
-        }
-        
-        else if(name.value === "" || username.value === "" || email.value === "" || password.value === "" || confirmPassword.value === "")
-        {
-          
-        } 
-        
-        else if(password.value !== confirmPassword.value) {
+    registerBtn.addEventListener("click", function() {
+      const name = document.getElementById('name');
+      const username = document.getElementById('username');
+      const email =document.getElementById('email');
+      const password = document.getElementById('password');
+      const confirmPassword = document.getElementById('confirmPassword');
 
-        }
+      if(name.value === "" && username.value === "" && email.value === "" && password.value === "" && confirmPassword.value === "") {
+        showToast("OPS!!", "No information are inputted!", "#fe0039", "#fe0039", "#fe0039");
+        alert('No data inputted');
+      } else if(name.value === "" || username.value === "" || email.value === "" || password.value === "" || confirmPassword.value === "") {
+        showToast("OPS!!", "Please fill all the required information!", "#fe0039", "#fe0039", "#fe0039")
+      } else if(password.value !== confirmPassword.value) {
+        showToast("OPS!!", "Passwords do not match!", "#fe0039", "#fe0039", "#fe0039")
+      }
 
 
 
@@ -76,8 +71,7 @@ const Register = () => {
 
 
 
-      })
-    }
+    })
     
   }
 
@@ -108,7 +102,7 @@ const Register = () => {
             <div className="mb-3">
               <label htmlFor="passKey" className="form-label">Password</label>
               <div className="d-flex">
-                <input type="password" className="form-control" id="passKey" name="passKey" />
+                <input type="password" className="form-control" id="passKey" name="password" />
                 <span className="view-password">
                   <i className="bi bi-eye fs-4 mt-1 position-absolute" id="togglePassKey" onClick={showPassword}></i>
                 </span>
@@ -124,7 +118,7 @@ const Register = () => {
               </div>
             </div>
             <div className="text-center mt-4">
-              <button type="submit" className="btn btn-success fw-semibold register-btn px-3 py-2" id="register">REGISTER</button>
+              <button type="submit" className="btn btn-success fw-semibold register-btn px-3 py-2" id="register" onClick={register}>REGISTER</button>
             </div>
             <p className="text-center mt-4">Already have an account? <Link to="/login" className="login-link text-decoration-none fw-semibold">Login</Link> instead.</p>
           </form>
