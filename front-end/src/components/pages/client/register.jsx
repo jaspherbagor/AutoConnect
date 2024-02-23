@@ -32,13 +32,20 @@ const Register = () => {
   const register = () => {
     const registerBtn = document.getElementById('register');
     
-    const showToast = () => {
+    const showToast = (label, message, color, border, background) => {
       const toast = new window.bootstrap.toast(toastLive);
       const toastLive = document.getElementById('liveToast');
       const toastLabel = document.getElementById('toastLabel');
       const toastMessage = document.getElementById('toastMessage');
       const toastHeader = document.getElementById('toastHeader');
-      
+
+      toastLabel.innerText = label;
+      toastLabel.style.color = "#FFFFFF";
+      toastMessage.innerText = message;
+      toastMessage.style.color = color;
+      toastLive.style.border = `2px solid ${border}`;
+      toastHeader.style.background = background;
+      toast.show();
     }
     if(registerBtn) {
       registerBtn.addEventListener("click", function() {
