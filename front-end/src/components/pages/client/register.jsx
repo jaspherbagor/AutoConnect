@@ -47,6 +47,7 @@ const Register = () => {
       toastHeader.style.background = background;
       toast.show();
     }
+    
     if(registerBtn) {
       registerBtn.addEventListener("click", function() {
         const name = document.getElementById('name');
@@ -55,13 +56,17 @@ const Register = () => {
         const password = document.getElementById('password');
         const confirmPassword = document.getElementById('confirmPassword');
 
-        if(name.value === "" && username.value === "" && email.value === "" && password.value === "" && confirmPassword.value === "") {
-          toastLabel.innerText = "Opps!!";
-
+        if(name.value === "" && username.value === "" && email.value === "" && password.value === "" && confirmPassword.value === "")
+        {
+          showToast("OPS!!", "No information are inputted!", "#fe0039", "#fe0039", "#fe0039")
+        }
+        
+        else if(name.value === "" || username.value === "" || email.value === "" || password.value === "" || confirmPassword.value === "")
+        {
           
-        } else if(name.value === "" || username.value === "" || email.value === "" || password.value === "" || confirmPassword.value === "") {
-          
-        } else if(password.value !== confirmPassword.value) {
+        } 
+        
+        else if(password.value !== confirmPassword.value) {
 
         }
 
