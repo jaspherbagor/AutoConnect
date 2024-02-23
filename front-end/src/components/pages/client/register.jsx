@@ -31,14 +31,17 @@ const Register = () => {
 
   const register = () => {
     const registerBtn = document.getElementById('register');
-    const toastLive = document.getElementById('liveToast');
-    const toastLabel = document.getElementById('toastLabel');
-    const toastMessage = document.getElementById('toastMessage');
-    const toastHeader = document.getElementById('toastHeader');
     
+    const showToast = () => {
+      const toast = new window.bootstrap.toast(toastLive);
+      const toastLive = document.getElementById('liveToast');
+      const toastLabel = document.getElementById('toastLabel');
+      const toastMessage = document.getElementById('toastMessage');
+      const toastHeader = document.getElementById('toastHeader');
+      
+    }
     if(registerBtn) {
       registerBtn.addEventListener("click", function() {
-        const toast = new window.bootstrap.toast(toastLive)
         const name = document.getElementById('name');
         const username = document.getElementById('username');
         const email =document.getElementById('email');
@@ -47,6 +50,7 @@ const Register = () => {
 
         if(name.value === "" && username.value === "" && email.value === "" && password.value === "" && confirmPassword.value === "") {
           toastLabel.innerText = "Opps!!";
+
           
         } else if(name.value === "" || username.value === "" || email.value === "" || password.value === "" || confirmPassword.value === "") {
           
