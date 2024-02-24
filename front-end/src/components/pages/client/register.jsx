@@ -65,7 +65,21 @@ const Register = () => {
         showToast("OPS!!", "Passwords do not match!", "#fe0039", "#fe0039", "#fe0039")
       } else {
         try {
-          
+          const url = 'https://localhost:4000/register';
+          fetch(url, {
+            method: 'post',
+            headers: {
+              'accept': 'application/json',
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+              name: name.value,
+              username: username.value,
+              email: email.value
+              
+            })
+
+          })
         } catch (error) {
           
         }
