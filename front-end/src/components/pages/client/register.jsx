@@ -30,7 +30,6 @@ const Register = () => {
   }
 
   const register = () => {
-    // alert('No data inputted');
     const registerBtn = document.getElementById('register');
     
     const showToast = (label, message, color, border, background) => {
@@ -75,21 +74,22 @@ const Register = () => {
             body: JSON.stringify({
               name: name.value,
               username: username.value,
-              email: email.value
-              
+              email: email.value,
+              password: password.value
             })
-
+          }).then(function(result) {
+            return result.json()
+          }).then(function(result) {
+            if(result.success) {
+              showToast("SUCCESS", "Account is successfully registered", "green", "green", "green")
+            } else {
+              showToast("OPS!!", "Username or email already taken!", "#fe0039", "#fe0039", "#fe0039")
+            }
           })
         } catch (error) {
-          
+          showToast("OPS!!", "Something went wrong on the server!", "#fe0039", "#fe0039", "#fe0039")
         }
       }
-
-
-
-
-
-
 
     })
     
