@@ -63,6 +63,12 @@ const Register = () => {
         showToast("OPS!!", "Please fill all the required information!", "#fe0039", "#fe0039", "#fe0039")
       } else if(password.value !== confirmPassword.value) {
         showToast("OPS!!", "Passwords do not match!", "#fe0039", "#fe0039", "#fe0039")
+      } else {
+        try {
+          
+        } catch (error) {
+          
+        }
       }
 
 
