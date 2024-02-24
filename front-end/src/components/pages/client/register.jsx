@@ -33,11 +33,11 @@ const Register = () => {
     const registerBtn = document.getElementById('register');
     
     const showToast = (label, message, color, border, background) => {
-      const toast = new window.bootstrap.toast(toastLive);
       const toastLive = document.getElementById('liveToast');
       const toastLabel = document.getElementById('toastLabel');
       const toastMessage = document.getElementById('toastMessage');
       const toastHeader = document.getElementById('toastHeader');
+      const toast = new window.bootstrap.toast(toastLive);
 
       toastLabel.innerText = label;
       toastLabel.style.color = "#FFFFFF";

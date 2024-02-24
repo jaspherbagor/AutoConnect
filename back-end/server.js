@@ -5,6 +5,7 @@ import jwt from "jsonwebtoken";
 import dotenv from "dotenv";
 dotenv.config();
 
+const port = process.env.port;
 const app = express();
 app.use(express.json());
 app.use(cors());
@@ -16,6 +17,7 @@ const connection = mysql.createConnection({
     password: process.env.password,
     database: process.env.database
 });
+
 
 
 
