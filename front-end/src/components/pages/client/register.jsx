@@ -1,8 +1,16 @@
-import React from 'react'
+import React from 'react';
+import { useState } from 'react';
 import ClientNavbar from './../../layouts/client/navbar';
 import { Link } from 'react-router-dom';
 import '../../styles/client/register.css'
 const Register = () => {
+
+  const [name, setName] = useState('');
+  const [username, setUsername] = useState('');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [confirmPassword, setConfirmPassword] = useState('');
+
   const showPassword = () => {
     const passKey = document.getElementById('passKey');
     const togglePassKey = document.getElementById('togglePassKey');
@@ -29,71 +37,145 @@ const Register = () => {
     }
   }
 
-  const register = () => {
-    const registerBtn = document.getElementById('register');
-    
-    const showToast = (label, message, color, border, background) => {
-      const toastLive = document.getElementById('liveToast');
-      const toastLabel = document.getElementById('toastLabel');
-      const toastMessage = document.getElementById('toastMessage');
-      const toastHeader = document.getElementById('toastHeader');
-      const toast = new window.bootstrap.toast(toastLive);
+  const showToast = (label, message, color, border, background) => {
+    const toastLive = document.getElementById('liveToast');
+    const toastLabel = document.getElementById('toastLabel');
+    const toastMessage = document.getElementById('toastMessage');
+    const toastHeader = document.getElementById('toastHeader');
+    const toast = new window.bootstrap.Toast(toastLive);
 
-      toastLabel.innerText = label;
-      toastLabel.style.color = "#FFFFFF";
-      toastMessage.innerText = message;
-      toastMessage.style.color = color;
-      toastLive.style.border = `2px solid ${border}`;
-      toastHeader.style.background = background;
-      toast.show();
-    };
+    toastLabel.innerText = label;
+    toastLabel.style.color = "#FFFFFF";
+    toastMessage.innerText = message;
+    toastMessage.style.color = color;
+    toastLive.style.border = `2px solid ${border}`;
+    toastHeader.style.background = background;
+    toast.show();
+  };
+   
+  const handleSubmit = async (e) => {
+    e.preventDefault();
 
-    registerBtn.addEventListener("click", function() {
-      const name = document.getElementById('name');
-      const username = document.getElementById('username');
-      const email =document.getElementById('email');
-      const password = document.getElementById('password');
-      const confirmPassword = document.getElementById('confirmPassword');
+  // const name = document.getElementById('name').value;
+  // const username = document.getElementById('username').value;
+  // const email = document.getElementById('email').value;
+  // const password = document.getElementById('passKey').value;
+  // const confirmPassword = document.getElementById('confirmPassword').value;
 
-      if(name.value === "" && username.value === "" && email.value === "" && password.value === "" && confirmPassword.value === "") {
-        showToast("OPS!!", "No information are inputted!", "#fe0039", "#fe0039", "#fe0039");
-        alert('No data inputted');
-      } else if(name.value === "" || username.value === "" || email.value === "" || password.value === "" || confirmPassword.value === "") {
-        showToast("OPS!!", "Please fill all the required information!", "#fe0039", "#fe0039", "#fe0039")
-      } else if(password.value !== confirmPassword.value) {
-        showToast("OPS!!", "Passwords do not match!", "#fe0039", "#fe0039", "#fe0039")
-      } else {
-        try {
-          const url = 'https://localhost:4000/register';
-          fetch(url, {
-            method: 'post',
-            headers: {
-              'accept': 'application/json',
-              'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({
-              name: name.value,
-              username: username.value,
-              email: email.value,
-              password: password.value
-            })
-          }).then(function(result) {
-            return result.json()
-          }).then(function(result) {
-            if(result.success) {
-              showToast("SUCCESS", "Account is successfully registered", "green", "green", "green")
-            } else {
-              showToast("OPS!!", "Username or email already taken!", "#fe0039", "#fe0039", "#fe0039")
-            }
-          })
-        } catch (error) {
-          showToast("OPS!!", "Something went wrong on the server!", "#fe0039", "#fe0039", "#fe0039")
-        }
+  // console.log('Form values:', name, username, email, password, confirmPassword);
+  if (!name && !username && !email && !password && !confirmPassword) {
+    showToast("OPS!!", "No data iputted!", "#fe0039", "#fe0039", "#fe0039");
+    return;
+  }
+
+  if (!name || !username || !email || !password || !confirmPassword) {
+      showToast("OPS!!", "Please fill all the required information!", "#fe0039", "#fe0039", "#fe0039");
+      return;
+    }
+
+    if (password !== confirmPassword) {
+      showToast("OPS!!", "Passwords do not match!", "#fe0039", "#fe0039", "#fe0039");
+      return;
+    }
+
+    try {
+      const url = 'https://localhost:4000/register';
+      const response = await fetch(url, {
+        method: 'post',
+        headers: {
+          'accept': 'application/json',
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          name,
+          username,
+          email,
+          password
+        })
+      });
+
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
       }
 
-    })
+      const result = await response.json();
+
+      if (result.success) {
+        showToast("SUCCESS", "Account is successfully registered", "green", "green", "green");
+      } else {
+        showToast("OPS!!", "Username or email already taken!", "#fe0039", "#fe0039", "#fe0039");
+      }
+    } catch (error) {
+      console.error('Fetch error:', error);
+      showToast("OPS!!", "Something went wrong on the server!", "#fe0039", "#fe0039", "#fe0039");
+    }
+  };
+
+  // const register = () => {
+  //   const registerBtn = document.getElementById('register');
     
-  }
+  //   const showToast = (label, message, color, border, background) => {
+  //     const toastLive = document.getElementById('liveToast');
+  //     const toastLabel = document.getElementById('toastLabel');
+  //     const toastMessage = document.getElementById('toastMessage');
+  //     const toastHeader = document.getElementById('toastHeader');
+  //     const toast = new window.bootstrap.toast(toastLive);
+
+  //     toastLabel.innerText = label;
+  //     toastLabel.style.color = "#FFFFFF";
+  //     toastMessage.innerText = message;
+  //     toastMessage.style.color = color;
+  //     toastLive.style.border = `2px solid ${border}`;
+  //     toastHeader.style.background = background;
+  //     toast.show();
+  //   };
+
+  //   registerBtn.addEventListener("click", function() {
+  //     const name = document.getElementById('name');
+  //     const username = document.getElementById('username');
+  //     const email =document.getElementById('email');
+  //     const password = document.getElementById('password');
+  //     const confirmPassword = document.getElementById('confirmPassword');
+
+  //     if(name.value === "" && username.value === "" && email.value === "" && password.value === "" && confirmPassword.value === "") {
+  //       showToast("OPS!!", "No information are inputted!", "#fe0039", "#fe0039", "#fe0039");
+  //       alert('No data inputted');
+  //     } else if(name.value === "" || username.value === "" || email.value === "" || password.value === "" || confirmPassword.value === "") {
+  //       showToast("OPS!!", "Please fill all the required information!", "#fe0039", "#fe0039", "#fe0039")
+  //     } else if(password.value !== confirmPassword.value) {
+  //       showToast("OPS!!", "Passwords do not match!", "#fe0039", "#fe0039", "#fe0039")
+  //     } else {
+  //       try {
+  //         const url = 'https://localhost:4000/register';
+  //         fetch(url, {
+  //           method: 'post',
+  //           headers: {
+  //             'accept': 'application/json',
+  //             'Content-Type': 'application/json'
+  //           },
+  //           body: JSON.stringify({
+  //             name: name.value,
+  //             username: username.value,
+  //             email: email.value,
+  //             password: password.value
+  //           })
+  //         }).then(function(result) {
+  //           return result.json()
+  //         }).then(function(result) {
+  //           if(result.success) {
+  //             showToast("SUCCESS", "Account is successfully registered", "green", "green", "green")
+  //           } else {
+  //             showToast("OPS!!", "Username or email already taken!", "#fe0039", "#fe0039", "#fe0039")
+  //           }
+  //         })
+  //       } catch (error) {
+  //         showToast("OPS!!", "Something went wrong on the server!", "#fe0039", "#fe0039", "#fe0039")
+  //       }
+  //     }
+
+  //   })
+    
+  // }
 
 
   return (
@@ -106,7 +188,7 @@ const Register = () => {
             <img src="../images/logo.svg" alt="logo" />
           </Link>
           <h2 className="text-center fw-bolder mt-4 mb-3">REGISTER ACCOUNT</h2>
-          <form className="text-start">
+          <form className="text-start" onSubmit={handleSubmit}>
             <div className="mb-3">
               <label htmlFor="name" className="form-label">Name</label>
               <input type="text" className="form-control" id="name" name="name" />
@@ -138,7 +220,7 @@ const Register = () => {
               </div>
             </div>
             <div className="text-center mt-4">
-              <button type="submit" className="btn btn-success fw-semibold register-btn px-3 py-2" id="register" onClick={register}>REGISTER</button>
+              <button type="submit" className="btn btn-success fw-semibold register-btn px-3 py-2" id="register">REGISTER</button>
             </div>
             <p className="text-center mt-4">Already have an account? <Link to="/login" className="login-link text-decoration-none fw-semibold">Login</Link> instead.</p>
           </form>
