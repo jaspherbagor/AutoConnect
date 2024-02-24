@@ -18,7 +18,15 @@ const connection = mysql.createConnection({
     database: process.env.database
 });
 
+app.post('/register', function(request, response) {
+    const nameFromFrontend = request.body.name;
+    const usernameFromFrontend = request.body.username;
+    const emailFromFrontend = request.body.email;
+    const passwordFromFrontend = request.body.password;
+    
 
+
+})
 
 connection.connect(function(err) {
     if (err) throw err;
