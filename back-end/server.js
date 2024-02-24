@@ -20,8 +20,9 @@ const connection = mysql.createConnection({
 
 
 
-
-
-
-console.log(process.env.host);
-console.log(process.env.password)
+connection.connect(function(err) {
+    if (err) throw err;
+    console.log('MySQL Database Connection Established!');
+    app.listen(port);
+    console.log(`App is now running on port: ${port}...`)
+})
