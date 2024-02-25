@@ -1,4 +1,4 @@
-import mysql from "mysql";
+import mysql from 'mysql';
 import express from "express";
 import cors from "cors";
 import jwt from "jsonwebtoken";
@@ -6,14 +6,14 @@ import dotenv from "dotenv";
 import bcrypt from "bcrypt";
 dotenv.config();
 
-const port = parseInt(process.env.port);
+const port = 4000;
 const app = express();
 app.use(express.json());
 app.use(cors());
 
 const connection = mysql.createConnection({
     host: process.env.host,
-    port: process.env.port,
+    port: parseInt(process.env.port, 10) || 3306,
     user: process.env.user,
     password: process.env.password,
     database: process.env.database
@@ -59,11 +59,10 @@ app.post('/register', function(request, response) {
 
 })
 
-connection.connect(function (err) {
-    if (err) {
-        console.log('Error connecting MYSQL')
-    };
-    console.log('MySQL Database Connection Established!');
+connection.connect(function(err) {
+
+    if (err) throw err;
+    console.log("MySQL DB Connection Established...");
     app.listen(port);
-    console.log(`App is now running on port: ${port}...`)
+    console.log("App is now running on port:", port)
 })
