@@ -55,6 +55,9 @@ const Register = () => {
    
   const handleSubmit = async (e) => {
     e.preventDefault();
+    
+    const port = 4000;
+    const url = `http://localhost:${port}/register`;
 
   if (!name && !username && !email && !password && !confirmPassword) {
     showToast("OPS!!", "No data iputted!", "#fe0039", "#fe0039", "#fe0039");
@@ -72,7 +75,6 @@ const Register = () => {
     }
 
     try {
-      const url = 'https://localhost:4000/register';
       const response = await fetch(url, {
         method: 'post',
         headers: {
@@ -99,7 +101,7 @@ const Register = () => {
         showToast("OPS!!", "Username or email already taken!", "#fe0039", "#fe0039", "#fe0039");
       }
     } catch (error) {
-      console.error('Fetch error:', error);
+      console.log('Fetch error:', error);
       showToast("OPS!!", "Something went wrong on the server!", "#fe0039", "#fe0039", "#fe0039");
     }
   };
