@@ -56,13 +56,6 @@ const Register = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-  // const name = document.getElementById('name').value;
-  // const username = document.getElementById('username').value;
-  // const email = document.getElementById('email').value;
-  // const password = document.getElementById('passKey').value;
-  // const confirmPassword = document.getElementById('confirmPassword').value;
-
-  // console.log('Form values:', name, username, email, password, confirmPassword);
   if (!name && !username && !email && !password && !confirmPassword) {
     showToast("OPS!!", "No data iputted!", "#fe0039", "#fe0039", "#fe0039");
     return;
@@ -111,73 +104,6 @@ const Register = () => {
     }
   };
 
-  // const register = () => {
-  //   const registerBtn = document.getElementById('register');
-    
-  //   const showToast = (label, message, color, border, background) => {
-  //     const toastLive = document.getElementById('liveToast');
-  //     const toastLabel = document.getElementById('toastLabel');
-  //     const toastMessage = document.getElementById('toastMessage');
-  //     const toastHeader = document.getElementById('toastHeader');
-  //     const toast = new window.bootstrap.toast(toastLive);
-
-  //     toastLabel.innerText = label;
-  //     toastLabel.style.color = "#FFFFFF";
-  //     toastMessage.innerText = message;
-  //     toastMessage.style.color = color;
-  //     toastLive.style.border = `2px solid ${border}`;
-  //     toastHeader.style.background = background;
-  //     toast.show();
-  //   };
-
-  //   registerBtn.addEventListener("click", function() {
-  //     const name = document.getElementById('name');
-  //     const username = document.getElementById('username');
-  //     const email =document.getElementById('email');
-  //     const password = document.getElementById('password');
-  //     const confirmPassword = document.getElementById('confirmPassword');
-
-  //     if(name.value === "" && username.value === "" && email.value === "" && password.value === "" && confirmPassword.value === "") {
-  //       showToast("OPS!!", "No information are inputted!", "#fe0039", "#fe0039", "#fe0039");
-  //       alert('No data inputted');
-  //     } else if(name.value === "" || username.value === "" || email.value === "" || password.value === "" || confirmPassword.value === "") {
-  //       showToast("OPS!!", "Please fill all the required information!", "#fe0039", "#fe0039", "#fe0039")
-  //     } else if(password.value !== confirmPassword.value) {
-  //       showToast("OPS!!", "Passwords do not match!", "#fe0039", "#fe0039", "#fe0039")
-  //     } else {
-  //       try {
-  //         const url = 'https://localhost:4000/register';
-  //         fetch(url, {
-  //           method: 'post',
-  //           headers: {
-  //             'accept': 'application/json',
-  //             'Content-Type': 'application/json'
-  //           },
-  //           body: JSON.stringify({
-  //             name: name.value,
-  //             username: username.value,
-  //             email: email.value,
-  //             password: password.value
-  //           })
-  //         }).then(function(result) {
-  //           return result.json()
-  //         }).then(function(result) {
-  //           if(result.success) {
-  //             showToast("SUCCESS", "Account is successfully registered", "green", "green", "green")
-  //           } else {
-  //             showToast("OPS!!", "Username or email already taken!", "#fe0039", "#fe0039", "#fe0039")
-  //           }
-  //         })
-  //       } catch (error) {
-  //         showToast("OPS!!", "Something went wrong on the server!", "#fe0039", "#fe0039", "#fe0039")
-  //       }
-  //     }
-
-  //   })
-    
-  // }
-
-
   return (
     <div>
       <ClientNavbar />
@@ -191,20 +117,20 @@ const Register = () => {
           <form className="text-start" onSubmit={handleSubmit}>
             <div className="mb-3">
               <label htmlFor="name" className="form-label">Name</label>
-              <input type="text" className="form-control" id="name" name="name" />
+              <input type="text" className="form-control" id="name" name="name" value={name} onChange={(e) => setName(e.target.value)} />
             </div>
             <div className="mb-3">
               <label htmlFor="username" className="form-label">Username</label>
-              <input type="text" className="form-control" id="username" name="username" />
+              <input type="text" className="form-control" id="username" name="username" value={username} onChange={(e) => setUsername(e.target.value)} />
             </div>
             <div className="mb-3">
               <label htmlFor="email" className="form-label">Email</label>
-              <input type="email" className="form-control" id="email" name="email" />
+              <input type="email" className="form-control" id="email" name="email" value={email} onChange={(e) => setEmail(e.target.value)} />
             </div>
             <div className="mb-3">
               <label htmlFor="passKey" className="form-label">Password</label>
               <div className="d-flex">
-                <input type="password" className="form-control" id="passKey" name="password" />
+                <input type="password" className="form-control" id="passKey" name="password" value={password} onChange={(e) => setPassword(e.target.value)} />
                 <span className="view-password">
                   <i className="bi bi-eye fs-4 mt-1 position-absolute" id="togglePassKey" onClick={showPassword}></i>
                 </span>
@@ -213,7 +139,7 @@ const Register = () => {
             <div className="mb-3">
               <label htmlFor="confirmPassword" className="form-label">Confirm Password</label>
               <div className="d-flex">
-                <input type="password" className="form-control" id="confirmPassword" name="confirmPassword" />
+                <input type="password" className="form-control" id="confirmPassword" name="confirmPassword" value={confirmPassword} onChange={(e) => setConfirmPassword(e.target.value)} />
                 <span className="view-password">
                   <i className="bi bi-eye fs-4 mt-1 position-absolute" id="toggleConfirmPassword" onClick={showConfirmPassword}></i>
                 </span>
