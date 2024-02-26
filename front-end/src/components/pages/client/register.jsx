@@ -159,7 +159,7 @@ const Register = () => {
               <strong className="me-auto" id="toastLabel"></strong>
               <button type="button" className="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
             </div>
-            <div className="toast-body fw-medium" id="toastMessage">
+            <div className="toast-body fw-medium text-start" id="toastMessage">
             </div>
           </div>
         </div>
