@@ -1,4 +1,5 @@
 import React from 'react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import ClientNavbar from '../../layouts/client/navbar';
 import '../../styles/client/login.css'
@@ -17,7 +18,16 @@ const Login = () => {
     }
   }
 
+  const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
 
+  const showToast = () => {
+
+  }
+
+  if(!username && !password) {
+
+  }
 
 
   return (
@@ -55,6 +65,16 @@ const Login = () => {
             </div>
           </form>
 
+        </div>
+        <div className="toast-container position-fixed top-0 p-2">
+          <div id="liveToast" className="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div className="toast-header" id="toastHeader">
+              <strong className="me-auto" id="toastLabel"></strong>
+              <button type="button" className="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div className="toast-body fw-medium text-start" id="toastMessage">
+            </div>
+          </div>
         </div>
       </section>
 
