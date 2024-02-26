@@ -96,7 +96,7 @@ const Register = () => {
       const result = await response.json();
 
       if (result.success) {
-        showToast("SUCCESS", "Account is successfully registered", "green", "green", "green");
+        showToast("SUCCESS", "Account is registered successfully!", "green", "green", "green");
         setName('');
         setUsername('');
         setEmail('');
