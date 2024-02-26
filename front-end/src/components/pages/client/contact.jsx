@@ -34,22 +34,26 @@ const Contact = () => {
     const port = 4000;
     const url = `http://localhost:${port}/contact`;
 
-    if(!name && !email && !contactNumber && !zipCode && !address && !typeOfService && !message) {
+    if(!name && !email && !contactNumber && !zipCode && !address && !typeOfService && !message)
+    {
       showToast("OPS!!", "No data is inputted!", "red", "red", "red")
     }
-    
-    if(!name || !email || !contactNumber || !zipCode || !address || !typeOfService || !message) {
+
+    else if(!name || !email || !contactNumber || !zipCode || !address || !typeOfService || !message)
+    {
       showToast("OPS!!", "Please complete all the required information!", "red", "red", "red")
     }
 
+    else
+    {
     try {
       const response = await fetch(url, {
-        method: "post",
+        method: 'post',
         headers: {
-          "accept": "application/json",
-          "Content-Type": "application/json"
+          'accept': 'application/json',
+          'Content-Type': 'application/json'
         },
-        body: {
+        body: JSON.stringify({
           name,
           email,
           contactNumber,
@@ -57,15 +61,15 @@ const Contact = () => {
           address,
           typeOfService,
           message
-        }
+        })
 
       });
 
       if(!response.ok) {
-        throw new Error ('Something went wrong!')
+        throw new Error ('Nework was not ok!')
       }
 
-      const result = response.json();
+      const result = await response.json();
 
       if(result.success) {
         showToast("SUCCESS", "Your message has been submitted successfully!", "green", "green", "green")
@@ -74,11 +78,11 @@ const Contact = () => {
       }
 
 
-
     } catch(error) {
       console.error('Something went wrong!');
-      showToast("OPS!!", "Something went wrong on the server!", "red", "red", "red")
+      showToast("OPS!!", "Something went wrong on the server123!", "red", "red", "red")
     }
+  }
 
   }
 
@@ -154,7 +158,7 @@ const Contact = () => {
           </form>
         </div>
 
-        <div className="toast-container position-fixed top-0 p-2">
+        <div className="toast-container position-fixed top-0 p-2 m-auto">
           <div id="liveToast" className="toast" role="alert" aria-live="assertive" aria-atomic="true">
             <div className="toast-header" id="toastHeader">
               <strong className="me-auto text-white" id="toastLabel"></strong>
