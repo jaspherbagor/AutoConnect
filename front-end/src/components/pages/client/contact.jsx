@@ -129,7 +129,7 @@ const Contact = () => {
                 <div className="col-md-6">
                   <div className="mb-3">
                     <label htmlFor="typeOfService" className="form-label">Type of Service</label>
-                    <select name="typeOfService" id="typeOfService" className="form-control">
+                    <select name="typeOfService" id="typeOfService" className="form-control" value={typeOfService} onChange={(e) => setTypeOfService(e.target.value)}>
                       <option value="">-- Select type of service --</option>
                       <option value="denting-and-painting">Denting and Painting</option>
                       <option value="major-repair">Major Repair</option>
