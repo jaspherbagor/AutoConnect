@@ -67,6 +67,16 @@ app.post('/contact', function (request, response) {
     const address = request.body.address;
     const typeOfService = request.body.typeOfService;
     const message = request.body.message;
+
+    const myQuery = `INSERT INTO autoconnect.contact (name, email, contact_number, zip_code, address, type_of_service, message) VALUES ("${name}", "${email}", "${contactNumber}", "${zipCode}", "${address}", "${typeOfService}", "${message}")`;
+
+    connection.query(myQuery, function(err, result) {
+        if(err) throw err;
+
+        console.log('Result from db: ', result);
+        response.send({success: true})
+    })
+
 })
 
 
