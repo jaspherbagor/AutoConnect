@@ -80,11 +80,9 @@ const Login = () => {
 
         })
 
-
-
-
       } catch(error) {
-        console.log("An error occured!")
+        console.log("An error occured!");
+        showToast("OPS!!", "An error ocurred!", "red", "red", "red")
       }
     }
   
