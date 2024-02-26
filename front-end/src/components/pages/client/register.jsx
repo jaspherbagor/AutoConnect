@@ -97,8 +97,14 @@ const Register = () => {
 
       if (result.success) {
         showToast("SUCCESS", "Account is successfully registered", "green", "green", "green");
+        setName('');
+        setUsername('');
+        setEmail('');
+        setPassword('');
+        setConfirmPassword('');
+
       } else {
-        showToast("OPS!!", "Username or email already taken!", "#fe0039", "#fe0039", "#fe0039");
+        showToast("OPS!!", "Username already taken!", "#fe0039", "#fe0039", "#fe0039");
       }
     } catch (error) {
       console.log('Fetch error:', error);
