@@ -18,7 +18,7 @@ const Login = () => {
     }
   }
 
-  const [username, setUsername] = useState('');
+  const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
   const showToast = (label, message, border, color, background) => {
@@ -41,11 +41,11 @@ const Login = () => {
     const port = 4000;
     const url = `http://localhost/${port}/login`;
 
-    if(!username && !password) {
+    if(!email && !password) {
       showToast("OPS!!", "No data inputted!", "red", "red", "red")
     }
   
-    else if(!username || !password) {
+    else if(!email || !password) {
       showToast("OPS!!", "Please fill up all the required information!", "red", "red", "red")
     } 
     
@@ -58,7 +58,7 @@ const Login = () => {
             'Content-Type': 'application/json'
           },
           body: JSON.stringify({
-            username,
+            email,
             password
           })
         }).then(function(result) {
@@ -68,7 +68,7 @@ const Login = () => {
 
           if(result.success) {
             showToast("SUCCESS", "Login Success!", "green", "green", "green");
-            setUsername('');
+            setEmail('');
             setPassword('');
             setTimeout(function() {
               window.location.href = "/"
@@ -101,15 +101,15 @@ const Login = () => {
           </Link>
           <h2 className="fw-bolder text-center mb-4 text-white">LOGIN ACCOUNT</h2>
 
-          <form className="text-start mb-0 py-0 text-white">
+          <form className="text-start mb-0 py-0 text-white" onSubmit={handleLoginSubmit}>
             <div className="mb-3">
               <label htmlFor="email" className="form-label">Email address</label>
-              <input type="email" className="form-control" id="email" name="email" />
+              <input type="email" className="form-control" id="email" name="email" value={email} onChange={(e) => setEmail(e.target.value)} />
             </div>
             <div className="mb-3">
               <label htmlFor="password" className="form-label">Password</label>
               <div className="d-flex">
-                <input type="password" className="form-control" id="password" name="password"/>
+                <input type="password" className="form-control" id="password" name="password" value={password} onChange={(e) => setPassword(e.target.value)}/>
                 <span className="togglerIcon text-black">
                   <i className="bi bi-eye fs-4 mt-1 position-absolute" id="togglePassword" onClick={togglePassword}></i>
                 </span>
@@ -129,7 +129,7 @@ const Login = () => {
         <div className="toast-container position-fixed top-0 p-2">
           <div id="liveToast" className="toast" role="alert" aria-live="assertive" aria-atomic="true">
             <div className="toast-header" id="toastHeader">
-              <strong className="me-auto" id="toastLabel"></strong>
+              <strong className="me-auto text-white" id="toastLabel"></strong>
               <button type="button" className="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
             </div>
             <div className="toast-body fw-medium text-start" id="toastMessage">
