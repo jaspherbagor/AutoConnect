@@ -5,7 +5,13 @@ import ClientFooter from '../../layouts/client/footer';
 import '../../styles/client/contact.css'
 
 const Contact = () => {
-  
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [contactNumber, setContactNumber] = useState('');
+  const [zipCode, setZipCode] = useState('');
+  const [address, setAddress] = useState('');
+  const [typeOfService, setTypeOfService] = useState('');
+  const [message, setMessage] = useState('')
 
   const submitContact = () => {
     
@@ -37,14 +43,14 @@ const Contact = () => {
               <div className="row">
                 <div className="col-md-6">
                   <div className="mb-3">
-                    <label htmlFor="contactnumber" className="form-label">Contact Number</label>
-                    <input type="text" className="form-control" id="contactnumber" name="contactnumber" />
+                    <label htmlFor="contactNumber" className="form-label">Contact Number</label>
+                    <input type="text" className="form-control" id="contactNumber" name="contactNumber" />
                   </div>
                 </div>
                 <div className="col-md-6">
                   <div className="mb-3">
-                    <label htmlFor="zipcode" className="form-label">Zip/Postal Code</label>
-                    <input type="number" className="form-control" id="zipcode" name="zipcode" />
+                    <label htmlFor="zipCode" className="form-label">Zip/Postal Code</label>
+                    <input type="number" className="form-control" id="zipCode" name="zipCode" />
                   </div>
                 </div>
               </div>
@@ -57,8 +63,8 @@ const Contact = () => {
                 </div>
                 <div className="col-md-6">
                   <div className="mb-3">
-                    <label htmlFor="typeofservice" className="form-label">Type of Service</label>
-                    <select name="typeofservice" id="typeofservice" className="form-control">
+                    <label htmlFor="typeOfService" className="form-label">Type of Service</label>
+                    <select name="typeOfService" id="typeOfService" className="form-control">
                       <option value="">-- Select type of service --</option>
                       <option value="denting-and-painting">Denting and Painting</option>
                       <option value="major-repair">Major Repair</option>
