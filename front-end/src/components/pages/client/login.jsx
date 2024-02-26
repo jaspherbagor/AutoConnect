@@ -21,14 +21,76 @@ const Login = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
-  const showToast = () => {
+  const showToast = (label, message, border, color, background) => {
+    const toastLive = document.getElementById('liveToast');
+    const toastLabel = document.getElementById('toastLabel');
+    const toastMessage = document.getElementById('toastMessage');
+    const toastHeader = document.getElementById('toastHeader');
+    const toast = new window.bootstrap.Toast(toastLive);
 
+    toastLabel.innerText = label;
+    toastMessage.innerText = message;
+    toastLive.style.border = `2.5px solid ${border}`;
+    toastMessage.style.color = color;
+    toastHeader.style.background = background;
+    toast.show()
   }
 
-  if(!username && !password) {
+  const handleLoginSubmit = async(e) => {
+    e.preventDefault();
+    const port = 4000;
+    const url = `http://localhost/${port}/login`;
 
+    if(!username && !password) {
+      showToast("OPS!!", "No data inputted!", "red", "red", "red")
+    }
+  
+    else if(!username || !password) {
+      showToast("OPS!!", "Please fill up all the required information!", "red", "red", "red")
+    } 
+    
+    else {
+      try {
+        const response = await fetch(url, {
+          method: 'post',
+          headers: {
+            'accept': 'application/json',
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({
+            username,
+            password
+          })
+        }).then(function(result) {
+          return result.json()
+        }).then(function(result) {
+          console.log('result:', result)
+
+          if(result.success) {
+            showToast("SUCCESS", "Login Success!", "green", "green", "green");
+            setUsername('');
+            setPassword('');
+            setTimeout(function() {
+              window.location.href = "/"
+            }, 2500);
+
+          } else {
+            showToast("OPS!!", "Invalid credentials!", "red", "red", "red")
+          }
+
+        })
+
+
+
+
+      } catch(error) {
+        console.log("An error occured!")
+      }
+    }
+  
   }
 
+  
 
   return (
     <div>
