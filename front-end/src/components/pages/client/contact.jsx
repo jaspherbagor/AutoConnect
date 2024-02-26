@@ -28,14 +28,58 @@ const Contact = () => {
     toast.show()
   }
 
-  const submitContact = async(e) => {
+  const handleSubmitContact = async(e) => {
     e.preventDefault();
     
     const port = 4000;
     const url = `http://localhost:${port}/contact`;
 
+    if(!name && !email && !contactNumber && !zipCode && !address && !typeOfService && !message) {
+      showToast("OPS!!", "No data is inputted!", "red", "red", "red")
+    }
     
-    
+    if(!name || !email || !contactNumber || !zipCode || !address || !typeOfService || !message) {
+      showToast("OPS!!", "Please complete all the required information!", "red", "red", "red")
+    }
+
+    try {
+      const response = await fetch(url, {
+        method: "post",
+        headers: {
+          "accept": "application/json",
+          "Content-Type": "application/json"
+        },
+        body: {
+          name,
+          email,
+          contactNumber,
+          zipCode,
+          address,
+          typeOfService,
+          message
+        }
+
+      });
+
+      if(!response.ok) {
+        throw new error('Something went wrong!')
+      }
+
+      const result = response.json();
+
+      if(result.success) {
+        showToast("SUCCESS", "Your message has been submitted successfully!", "green", "green", "green")
+      } else {
+        showToast("OPS!!", "Something went wrong on the server!", "red", "red", "red")
+      }
+
+
+
+    } catch(error) {
+      console.error('Something went wrong!');
+      showToast("OPS!!", "Something went wrong on the server!", "red", "red", "red")
+    }
+
   }
 
   return (
