@@ -72,7 +72,14 @@ const Contact = () => {
       const result = await response.json();
 
       if(result.success) {
-        showToast("SUCCESS", "Your message has been submitted successfully!", "green", "green", "green")
+        showToast("SUCCESS", "Your message has been submitted successfully!", "green", "green", "green");
+          setName('');
+          setEmail('');
+          setContactNumber('');
+          setZipCode('');
+          setAddress('');
+          setTypeOfService('');
+          setMessage('')
       } else {
         showToast("OPS!!", "Something went wrong on the server!", "red", "red", "red")
       }
