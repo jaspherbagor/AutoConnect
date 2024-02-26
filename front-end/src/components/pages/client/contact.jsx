@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import { useState } from 'react';
 import ClientNavbar from '../../layouts/client/navbar';
 import ClientFooter from '../../layouts/client/footer';
 import '../../styles/client/contact.css'
 
 const Contact = () => {
+  
+
   const submitContact = () => {
     
   }
