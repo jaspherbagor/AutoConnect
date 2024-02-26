@@ -15,13 +15,26 @@ const Contact = () => {
 
   const showToast = (label, message, color, border, background) => {
     const toastLive = document.getElementById('liveToast');
-    const label = document.getElementById('toastLabel');
-    const message = document.getElementById('toastMessage');
-    const header = document.getElementById('toastHeader');
-    const toast = new window.bootstrap.Toast(toastLive)
+    const toastLabel = document.getElementById('toastLabel');
+    const toastMessage = document.getElementById('toastMessage');
+    const toastHeader = document.getElementById('toastHeader');
+    const toast = new window.bootstrap.Toast(toastLive);
+
+    toastLabel.innerText = label;
+    toastMessage.innerText = message;
+    toastMessage.style.color = color;
+    toastLive.style.border = `2.5px solid ${border}`;
+    toastHeader.style.background = background;
+    toast.show()
   }
 
-  const submitContact = () => {
+  const submitContact = async(e) => {
+    e.preventDefault();
+    
+    const port = 4000;
+    const url = `http://localhost:${port}/contact`;
+
+    
     
   }
 
@@ -99,7 +112,7 @@ const Contact = () => {
         <div className="toast-container position-fixed top-0 p-2">
           <div id="liveToast" className="toast" role="alert" aria-live="assertive" aria-atomic="true">
             <div className="toast-header" id="toastHeader">
-              <strong className="me-auto" id="toastLabel"></strong>
+              <strong className="me-auto text-white" id="toastLabel"></strong>
               <button type="button" className="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
             </div>
             <div className="toast-body fw-medium text-start" id="toastMessage">
