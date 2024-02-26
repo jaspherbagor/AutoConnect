@@ -48,3 +48,7 @@ html, body {
 input, select, textarea {
     border: 1px solid var(--text-color-dark) !important
 }
+
+.toast-container {
+    top:45px
+}

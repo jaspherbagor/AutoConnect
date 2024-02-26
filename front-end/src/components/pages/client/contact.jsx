@@ -62,7 +62,7 @@ const Contact = () => {
       });
 
       if(!response.ok) {
-        throw new error('Something went wrong!')
+        throw new Error ('Something went wrong!')
       }
 
       const result = response.json();
@@ -90,18 +90,18 @@ const Contact = () => {
       </section>
       <section className="contact-section container-fluid px-md-4 px-sm-4 px-3 py-5">
         <div className="container col-md-10 col-sm-10 col-12 text-start">
-          <form>
+          <form onSubmit={handleSubmitContact}>
             <div className="row">
               <div className="col-md-6">
                 <div className="mb-3">
                   <label htmlFor="name" className="form-label">Name</label>
-                  <input type="text" className="form-control" id="name" name="name" />
+                  <input type="text" className="form-control" id="name" name="name" value={name} onChange={(e) => setName(e.target.value)} />
                 </div>
               </div>
               <div className="col-md-6">
                 <div className="mb-3">
                   <label htmlFor="email" className="form-label">Email</label>
-                  <input type="email" className="form-control" id="email" name="email" />
+                  <input type="email" className="form-control" id="email" name="email" value={email} onChange={(e) => setEmail(e.target.value)} />
                 </div>
               </div>
             </div>
@@ -109,13 +109,13 @@ const Contact = () => {
                 <div className="col-md-6">
                   <div className="mb-3">
                     <label htmlFor="contactNumber" className="form-label">Contact Number</label>
-                    <input type="text" className="form-control" id="contactNumber" name="contactNumber" />
+                    <input type="text" className="form-control" id="contactNumber" name="contactNumber" value={contactNumber} onChange={(e) => setContactNumber(e.target.value)} />
                   </div>
                 </div>
                 <div className="col-md-6">
                   <div className="mb-3">
                     <label htmlFor="zipCode" className="form-label">Zip/Postal Code</label>
-                    <input type="number" className="form-control" id="zipCode" name="zipCode" />
+                    <input type="number" className="form-control" id="zipCode" name="zipCode" value={zipCode} onChange={(e) => setZipCode(e.target.value)} />
                   </div>
                 </div>
               </div>
@@ -123,7 +123,7 @@ const Contact = () => {
                 <div className="col-md-6">
                   <div className="mb-3">
                     <label htmlFor="address" className="form-label">Address</label>
-                    <input type="text" className="form-control" id="address" name="address" />
+                    <input type="text" className="form-control" id="address" name="address" value={address} onChange={(e) => setAddress(e.target.value)} />
                   </div>
                 </div>
                 <div className="col-md-6">
@@ -145,7 +145,7 @@ const Contact = () => {
                 <label htmlFor="message" className="form-label">
                   Message
                 </label>
-                <textarea name="message" id="message" className="w-100 form-control"></textarea>
+                <textarea name="message" id="message" className="w-100 form-control" value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
               </div>
 
             <button type="submit" className="btn btn-primary contact-btn fw-semibold px-3 py-2">
@@ -153,13 +153,14 @@ const Contact = () => {
             </button>
           </form>
         </div>
+
         <div className="toast-container position-fixed top-0 p-2">
           <div id="liveToast" className="toast" role="alert" aria-live="assertive" aria-atomic="true">
             <div className="toast-header" id="toastHeader">
               <strong className="me-auto text-white" id="toastLabel"></strong>
               <button type="button" className="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
             </div>
-            <div className="toast-body fw-medium text-start" id="toastMessage">
+            <div className="toast-body fw-medium" id="toastMessage">
             </div>
           </div>
         </div>
