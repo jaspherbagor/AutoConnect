@@ -14,7 +14,11 @@ const Contact = () => {
   const [message, setMessage] = useState('')
 
   const showToast = (label, message, color, border, background) => {
-    const 
+    const toastLive = document.getElementById('liveToast');
+    const label = document.getElementById('toastLabel');
+    const message = document.getElementById('toastMessage');
+    const header = document.getElementById('toastHeader');
+    const toast = new window.bootstrap.Toast(toastLive)
   }
 
   const submitContact = () => {
