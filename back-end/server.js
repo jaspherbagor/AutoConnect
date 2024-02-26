@@ -59,6 +59,17 @@ app.post('/register', function(request, response) {
 
 })
 
+app.post('/contact', function (request, response) {
+    const name = request.body.name;
+    const email = request.body.email;
+    const contactNumber = request.body.contactNumber;
+    const zipCode = request.body.zipCode;
+    const address = request.body.address;
+    const typeOfService = request.body.typeOfService;
+    const message = request.body.message;
+})
+
+
 connection.connect(function(err) {
 
     if (err) throw err;
