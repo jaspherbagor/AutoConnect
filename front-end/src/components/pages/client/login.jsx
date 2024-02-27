@@ -67,6 +67,7 @@ const Login = () => {
           console.log('result:', result)
 
           if(result.success) {
+            localStorage.setItem('token', result.token);
             showToast("SUCCESS", "Login Success!", "green", "green", "green");
             setEmail('');
             setPassword('');
