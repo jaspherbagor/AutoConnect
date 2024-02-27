@@ -101,7 +101,8 @@ app.post('/login', function(request, response) {
 
                 response.send({success: true, token: token});
                 console.log('checkPassword: ', check);
-                console.log('Login Successful!')
+                console.log('Login Successful!');
+                console.log('token: ', token)
             } else {
 
                 response.send({success: false, error: 'Invalid credentials'});
