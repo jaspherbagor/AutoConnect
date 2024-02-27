@@ -2,6 +2,8 @@ import React from 'react';
 import '../../styles/client/navbar.css';
 import { Link } from 'react-router-dom';
 const ClientNavbar = () => {
+    const userToken = localStorage.getItem('token');
+    const logout = localStorage.clear()
     return (
         <div>
             <nav className="navbar navbar-expand-lg text-start px-2 py-1 position-fixed container-fluid">
