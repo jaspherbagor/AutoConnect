@@ -51,7 +51,7 @@ const Login = () => {
     
     else {
       try {
-        const response = await fetch(url, {
+        await fetch(url, {
           method: 'post',
           headers: {
             'accept': 'application/json',
