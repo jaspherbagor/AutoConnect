@@ -39,7 +39,7 @@ const Login = () => {
   const handleLoginSubmit = async(e) => {
     e.preventDefault();
     const port = 4000;
-    const url = `http://localhost/${port}/login`;
+    const url = `http://localhost:${port}/login`;
 
     if(!email && !password) {
       showToast("OPS!!", "No data inputted!", "red", "red", "red")
@@ -54,7 +54,7 @@ const Login = () => {
         await fetch(url, {
           method: 'post',
           headers: {
-            'accept': 'application/json',
+            'Accept': 'application/json',
             'Content-Type': 'application/json'
           },
           body: JSON.stringify({
