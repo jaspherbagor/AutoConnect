@@ -81,7 +81,38 @@ app.post('/contact', function (request, response) {
 
 
 app.post('/login', function(request, response) {
-    
+    const emailFromFrontend = request.body.email;
+    const passwordFromFrontend = request.body.password;
+
+    const myQuery = `SELECT * from autoconnect.users_registration WHERE email = ${emailFromFrontend}`;
+
+    connection.query(myQuery, function(err, result) {
+        if (err) throw err;
+
+        if(result && result[0] && result[0].id) {
+            const hashedPassword = result.password[0];
+
+            const check = bcrypt.compareSync(passwordFromFrontend, hashedPassword);
+
+            if(check) {
+                const {id, name, username, email} = result[0];
+                const user = {id, name, username, email};
+                const token = jwt.sign({user}, 'shhhhh', {expiresIn: '1h'});
+
+                response.send({success: true, 'token': token});
+                console.log('checkPassword: ', check);
+                console.log('Login Successful!')
+            } else {
+
+                response.send({success: false, 'error': 'Invalid credentials'});
+                console.log('Login Successful1!')
+            }
+        } else {
+            response.send({success: false, 'error': 'Invalid credentials'});
+            console.log('Login Successful2!')
+        }
+    })
+
 })
 
 
