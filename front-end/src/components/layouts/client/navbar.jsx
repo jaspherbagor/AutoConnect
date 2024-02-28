@@ -3,6 +3,7 @@ import '../../styles/client/navbar.css';
 import { Link } from 'react-router-dom';
 const ClientNavbar = () => {
     const userToken = localStorage.getItem('token');
+    console.log(userToken)
     const logout = localStorage.clear()
     return (
         <div>
