@@ -102,6 +102,9 @@ const Register = () => {
         setEmail('');
         setPassword('');
         setConfirmPassword('');
+        setTimeout(() => {
+          window.location.href = "/login"
+        }, 2000)
 
       } else {
         showToast("OPS!!", "Username already taken!", "#fe0039", "#fe0039", "#fe0039");
