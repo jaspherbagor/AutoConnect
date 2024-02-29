@@ -156,9 +156,11 @@ const Home = () => {
             </section>
             <section className="newsletter-subscription-section container-fluid px-md-4 px-sm-4 px-3 py-5 d-flex align-items-center justify-content-center bg-success">
                 <div className="container">
-                    <h2 className="text-center fw-bolder">Subscribe to AUTOCONNECT's Latest Promotion</h2>
-                    <div className="d-flex">
+                    <h2 className="text-center fw-bolder mb-4">Subscribe to AUTOCONNECT's Latest Promotion</h2>
+                    <p className="text-center">Suscribe to our email newsletter so that you never miss out our newest promotions.</p>
+                    <div className="d-flex mt-4">
                         <input type="email" name="newsletter-email-input" id="newsletterEmailInput" className="form-control" placeholder="Input email here..." />
+                        <button type="submit" className="btn btn-danger" id="submitEmail">Subscribe</button>
                     </div>
                 </div>
             </section>
