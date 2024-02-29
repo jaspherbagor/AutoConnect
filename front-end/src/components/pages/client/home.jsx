@@ -154,6 +154,9 @@ const Home = () => {
                 </div>
 
             </section>
+            <section className="newsletter-subscription-section container-fluid px-md-4 pxx-sm-4 px-3 py-5">
+
+            </section>
             <section className="customers-review container-fluid px-md-4 px-sm-4 px-3 py-5">
                 <h2 className="fw-bolder text-center text-white"><span>CUSTOMERS</span> REVIEW</h2>
                 <div id="carouselExampleAutoplaying" className="carousel slide carousel-fade" data-bs-ride="carousel">
