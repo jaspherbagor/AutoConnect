@@ -154,7 +154,7 @@ const Home = () => {
                 </div>
 
             </section>
-            <section className="newsletter-subscription-section container-fluid px-md-4 pxx-sm-4 px-3 py-5">
+            <section className="newsletter-subscription-section container-fluid px-md-4 pxx-sm-4 px-3 py-5 d-flex align-items-center justify-content-center bg-success">
                 <div className="container">
                     <h2 className="text-center fw-bolder">Subscribe to AUTOCONNECT's Latest Promotion</h2>
                 </div>
