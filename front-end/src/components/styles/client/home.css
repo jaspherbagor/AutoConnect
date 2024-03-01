@@ -116,3 +116,22 @@ h2 span {
     color: var(--primary-color)
 }
 /* Customers Review Section End */
+
+.newsletter-subscription-section {
+
+}
+
+.newsletter-email-input {
+    border: 2px solid var(--text-color-dark) !important;
+    border-radius: 0px
+}
+
+.subscribe-btn {
+    border: 2px solid var(--text-color-dark) !important;
+    background: var(--primary-color)
+}
+
+.subscribe-btn:hover {
+    border: 2px solid var(--primary-color) !important;
+    background: var(--text-color-dark);
+}
