@@ -158,10 +158,13 @@ const Home = () => {
                 <div className="container">
                     <h2 className="text-center fw-bolder mb-4">Subscribe to AUTOCONNECT's Latest Promotion</h2>
                     <p className="text-center">Suscribe to our email newsletter so that you never miss out our newest promotions.</p>
-                    <div className="d-flex mt-4">
-                        <input type="email" name="newsletter-email-input" id="newsletterEmailInput" className="form-control" placeholder="Input email here..." />
-                        <button type="submit" className="btn btn-danger" id="submitEmail">Subscribe</button>
-                    </div>
+                    <form method="post">
+                        <div className="input-group mt-4 align-items-center ">
+                            <input type="email" name="newsletter-email-input" id="newsletterEmailInput" className="form-control" placeholder="Input email here..." />
+                            <button type="submit" className="btn btn-danger subscribe-btn" id="submitEmail">Subscribe</button>
+                        </div>
+                    </form>
+
                 </div>
             </section>
             <section className="customers-review container-fluid px-md-4 px-sm-4 px-3 py-5">
