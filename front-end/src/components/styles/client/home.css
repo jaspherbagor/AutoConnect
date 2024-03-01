@@ -118,7 +118,10 @@ h2 span {
 /* Customers Review Section End */
 
 .newsletter-subscription-section {
-
+    background: url('');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .newsletter-email-input {
