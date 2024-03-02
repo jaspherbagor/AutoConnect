@@ -11,7 +11,7 @@ const About = () => {
             <h2 className="fw-bolder text-center mt-5 pt-4">ABOUT <span>AUTOCONNECT</span></h2>
             <p className="text-center lead mt-5">Founded in November 2023 by visionary entrepreneur Ronaldo Tarroza, AUTO CONNECT stands as a testament to a commitment to redefine the landscape of the automotive service industry in the Philippines. Our core mission is rooted in the desire to streamline the experience for discerning car owners seeking top-notch mechanical expertise. AUTO CONNECT introduces a pioneering methodology to automotive care with its innovative Doorstep - Pickup & Drop service.</p>
             <div className="row text-center">
-              <h2 className="fw-bolder mt-5 mb-5">CORE VALUES</h2>
+              <h2 className="fw-bolder mt-5 mb-5">CORE <span>VALUES</span></h2>
               <div className="col-md-4">
                 <i className="bi bi-trophy display-1 core-values-icon"></i>
                 <h3 className="fw-bold mb-4 mt-3">QUALITY</h3>
