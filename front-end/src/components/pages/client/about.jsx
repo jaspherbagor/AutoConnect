@@ -23,8 +23,8 @@ const About = () => {
                 <p>Dedicated to eco-friendly practices, AUTO CONNECT prioritizes sustainability in every service. From energy-efficient equipment to responsible product usage, we minimize our environmental impact, ensuring efficient vehicles and a healthier planet for future generations.</p>
               </div>
               <div className="col-md-4">
-
-                <h3 className="fw-bold mb-4">INTEGRITY</h3>
+                <i class="bi bi-shield-check display-1 core-values-icon"></i>
+                <h3 className="fw-bold mb-4 mt-3">INTEGRITY</h3>
                 <p>AUTO CONNECT upholds the highest standards of integrity in transparent communication, honest assessments, and fair pricing. We prioritize trust through ethical practices, fostering long-term relationships built on accountability and reliability.</p>
               </div>
             </div>
