@@ -25,4 +25,8 @@ html, body {
     --text-color-dark: #000;
     --grayish-color: #f1f1f1;
     --font-family: 'Inter', sans-serif;
+} 
+
+.core-values-icon {
+    color: var(--primary-color)
 }
