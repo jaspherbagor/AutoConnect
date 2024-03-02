@@ -15,16 +15,16 @@ const About = () => {
               <div className="col-md-4">
 
                 <h3 className="fw-bold">QUALITY</h3>
+                <p>AUTO CONNECT ensures optimal vehicle performance through cutting-edge technology and expert technicians, providing the highest standard of maintenance and repairs for a superior automotive experience, surpassing customer expectations consistently.</p>
+              </div>
+              <div className="col-md-4">
+
+                <h3 className="fw-bold">SUSTAINABILITY</h3>
                 <p></p>
               </div>
               <div className="col-md-4">
 
-                <h3 className="fw-bold">QUALITY</h3>
-                <p></p>
-              </div>
-              <div className="col-md-4">
-
-                <h3 className="fw-bold">QUALITY</h3>
+                <h3 className="fw-bold">INTEGRITY</h3>
                 <p></p>
               </div>
             </div>
