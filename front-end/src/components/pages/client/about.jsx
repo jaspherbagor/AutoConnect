@@ -31,6 +31,7 @@ const About = () => {
             <h2 className="fw-bolder text-center mt-5 mb-4">OUR <span>MISSION</span></h2>
             <p>At AUTOCONNECT, our mission is to redefine the automotive service experience in the Philippines. We are committed to delivering unparalleled convenience, expertise, and sustainability through innovative solutions, ensuring every customer enjoys a seamless and reliable journey on the road.</p>
             <h2 className="fw-bolder text-center mt-5 mb-4">OUR <span>VISION</span></h2>
+            <p>AUTOCONNECT envisions a future where car maintenance is synonymous with efficiency, sustainability, and trust. We strive to be the foremost choice in automotive care, revolutionizing the industry by consistently exceeding customer expectations, fostering eco-friendly practices, and building enduring relationships based on transparency and integrity. Our vision is to drive the evolution of the car service landscape, setting new standards for excellence in the Philippines and beyond.</p>
         </section>
 
         <ClientFooter/>
