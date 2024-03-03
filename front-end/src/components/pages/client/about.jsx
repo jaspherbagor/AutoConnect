@@ -8,8 +8,10 @@ const About = () => {
         <ClientNavbar/>
 
         <section className="about-section container-fluid px-md-4 px-sm-4 px-3 py-5">
+
             <h2 className="fw-bolder text-center mt-5 pt-4">ABOUT <span>AUTOCONNECT</span></h2>
             <p className="text-center lead mt-5">Founded in November 2023 by visionary entrepreneur Ronaldo Tarroza, AUTO CONNECT stands as a testament to a commitment to redefine the landscape of the automotive service industry in the Philippines. Our core mission is rooted in the desire to streamline the experience for discerning car owners seeking top-notch mechanical expertise. AUTO CONNECT introduces a pioneering methodology to automotive care with its innovative Doorstep - Pickup & Drop service.</p>
+
             <div className="row text-center">
               <h2 className="fw-bolder mt-5 mb-5">CORE <span>VALUES</span></h2>
               <div className="col-md-4">
@@ -28,10 +30,14 @@ const About = () => {
                 <p>AUTO CONNECT upholds the highest standards of integrity in transparent communication, honest assessments, and fair pricing. We prioritize trust through ethical practices, fostering long-term relationships built on accountability and reliability.</p>
               </div>
             </div>
+
             <h2 className="fw-bolder text-center mt-5 mb-4">OUR <span>MISSION</span></h2>
             <p>At AUTOCONNECT, our mission is to redefine the automotive service experience in the Philippines. We are committed to delivering unparalleled convenience, expertise, and sustainability through innovative solutions, ensuring every customer enjoys a seamless and reliable journey on the road.</p>
+
             <h2 className="fw-bolder text-center mt-5 mb-4">OUR <span>VISION</span></h2>
             <p>AUTOCONNECT envisions a future where car maintenance is synonymous with efficiency, sustainability, and trust. We strive to be the foremost choice in automotive care, revolutionizing the industry by consistently exceeding customer expectations, fostering eco-friendly practices, and building enduring relationships based on transparency and integrity. Our vision is to drive the evolution of the car service landscape, setting new standards for excellence in the Philippines and beyond.</p>
+
+            <h2 className="fw-bolder text-center mt-5 mb-4"><span>TEAM</span> EXPERTISE</h2>
         </section>
 
         <ClientFooter/>
