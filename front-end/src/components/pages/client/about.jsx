@@ -44,6 +44,7 @@ const About = () => {
             <p>Say goodbye to inconvenience and hello to simplicity with our Doorstep - Pickup & Drop service. Imagine a world where your car gets the attention it deserves without disrupting your schedule. Schedule a pickup, and our friendly team will seamlessly handle the rest. It's not just a service; it's a stress-free automotive experience tailored for you.</p>
 
             <h2 className="fw-bolder text-center mt-5 mb-4">ADVANCED <span>TECHNOLOGY</span></h2>
+            <p>At AUTOCONNECT, we're not just keeping up with technology; we're leading the way. Our commitment to precision and efficiency is powered by cutting-edge tools and state-of-the-art equipment. Your vehicle receives the royal treatment it deserves, ensuring it's not just a repair; it's a technological leap toward a smoother, more reliable ride.</p>
         </section>
 
         <ClientFooter/>
