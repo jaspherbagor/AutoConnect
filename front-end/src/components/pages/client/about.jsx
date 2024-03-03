@@ -40,7 +40,7 @@ const About = () => {
             <h2 className="fw-bolder text-center mt-5 mb-4"><span>TEAM</span> EXPERTISE</h2>
             <p>Meet the heart of AUTOCONNECT – our team of seasoned professionals, driven by a passion for automotive excellence. With years of industry experience, our skilled technicians and staff are dedicated to providing not just services but a commitment to your vehicle's optimal performance. Trust us; your car is in the hands of experts who truly care.</p>
 
-            
+            <h2 className="fw-bolder text-center mt-5 mb-4"><span> Doorstep - Pickup & Drop</span> SERVICE</h2>
         </section>
 
         <ClientFooter/>
