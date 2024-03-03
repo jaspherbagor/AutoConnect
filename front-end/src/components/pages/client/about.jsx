@@ -40,7 +40,8 @@ const About = () => {
             <h2 className="fw-bolder text-center mt-5 mb-4"><span>TEAM</span> EXPERTISE</h2>
             <p>Meet the heart of AUTOCONNECT – our team of seasoned professionals, driven by a passion for automotive excellence. With years of industry experience, our skilled technicians and staff are dedicated to providing not just services but a commitment to your vehicle's optimal performance. Trust us; your car is in the hands of experts who truly care.</p>
 
-            <h2 className="fw-bolder text-center mt-5 mb-4"><span> Doorstep - Pickup & Drop</span> SERVICE</h2>
+            <h2 className="fw-bolder text-center mt-5 mb-4"><span> DOORSTEP - PICKUP & DROP</span> SERVICE</h2>
+            <p>Say goodbye to inconvenience and hello to simplicity with our Doorstep - Pickup & Drop service. Imagine a world where your car gets the attention it deserves without disrupting your schedule. Schedule a pickup, and our friendly team will seamlessly handle the rest. It's not just a service; it's a stress-free automotive experience tailored for you.</p>
         </section>
 
         <ClientFooter/>
