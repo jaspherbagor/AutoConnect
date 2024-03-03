@@ -28,6 +28,7 @@ const About = () => {
                 <p>AUTO CONNECT upholds the highest standards of integrity in transparent communication, honest assessments, and fair pricing. We prioritize trust through ethical practices, fostering long-term relationships built on accountability and reliability.</p>
               </div>
             </div>
+            <h2 className="fw-bolder text-center">OUR <span>MISSION</span></h2>
         </section>
 
         <ClientFooter/>
