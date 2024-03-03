@@ -42,6 +42,8 @@ const About = () => {
 
             <h2 className="fw-bolder text-center mt-5 mb-4"><span> DOORSTEP - PICKUP & DROP</span> SERVICE</h2>
             <p>Say goodbye to inconvenience and hello to simplicity with our Doorstep - Pickup & Drop service. Imagine a world where your car gets the attention it deserves without disrupting your schedule. Schedule a pickup, and our friendly team will seamlessly handle the rest. It's not just a service; it's a stress-free automotive experience tailored for you.</p>
+
+            <h2 className="fw-bolder text-center mt-5 mb-4">ADVANCED <span>TECHNOLOGY</span></h2>
         </section>
 
         <ClientFooter/>
