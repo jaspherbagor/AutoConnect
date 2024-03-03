@@ -99,7 +99,7 @@ const Contact = () => {
       <section className="contact-heading container-fluid px-md-4 px-sm-4 px-3 py-5 bg-success">
         <h2 className="fw-bolder text-center pt-5 pb-3 mt-4 text-white">CONTACT FORM</h2>
       </section>
-      <section className="contact-section container-fluid px-md-4 px-sm-4 px-3 py-5">
+      <section className="contact-section container-fluid px-md-4 px-sm-4 px-3 py-5 d-flex align-items-center justify-content-center">
         <div className="container col-md-10 col-sm-10 col-12 text-start">
           <form onSubmit={handleSubmitContact}>
             <div className="row">
@@ -164,7 +164,6 @@ const Contact = () => {
             </button>
           </form>
         </div>
-
         <div className="toast-container position-fixed top-0 p-2 m-auto">
           <div id="liveToast" className="toast" role="alert" aria-live="assertive" aria-atomic="true">
             <div className="toast-header" id="toastHeader">
@@ -175,7 +174,6 @@ const Contact = () => {
             </div>
           </div>
         </div>
-
       </section>
 
       <ClientFooter />
