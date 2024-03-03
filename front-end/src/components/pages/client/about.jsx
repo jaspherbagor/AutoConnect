@@ -28,7 +28,8 @@ const About = () => {
                 <p>AUTO CONNECT upholds the highest standards of integrity in transparent communication, honest assessments, and fair pricing. We prioritize trust through ethical practices, fostering long-term relationships built on accountability and reliability.</p>
               </div>
             </div>
-            <h2 className="fw-bolder text-center">OUR <span>MISSION</span></h2>
+            <h2 className="fw-bolder text-center mt-5 mb-4">OUR <span>MISSION</span></h2>
+            <p>At AUTOCONNECT, our mission is to redefine the automotive service experience in the Philippines. We are committed to delivering unparalleled convenience, expertise, and sustainability through innovative solutions, ensuring every customer enjoys a seamless and reliable journey on the road.</p>
         </section>
 
         <ClientFooter/>
