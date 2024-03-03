@@ -38,6 +38,9 @@ const About = () => {
             <p>AUTOCONNECT envisions a future where car maintenance is synonymous with efficiency, sustainability, and trust. We strive to be the foremost choice in automotive care, revolutionizing the industry by consistently exceeding customer expectations, fostering eco-friendly practices, and building enduring relationships based on transparency and integrity. Our vision is to drive the evolution of the car service landscape, setting new standards for excellence in the Philippines and beyond.</p>
 
             <h2 className="fw-bolder text-center mt-5 mb-4"><span>TEAM</span> EXPERTISE</h2>
+            <p>Meet the heart of AUTOCONNECT – our team of seasoned professionals, driven by a passion for automotive excellence. With years of industry experience, our skilled technicians and staff are dedicated to providing not just services but a commitment to your vehicle's optimal performance. Trust us; your car is in the hands of experts who truly care.</p>
+
+            
         </section>
 
         <ClientFooter/>
