@@ -6,8 +6,8 @@ const Faqs = () => {
     <div>
         <ClientNavbar/>
 
-        <section className="container-fluid px-4 py-5">
-            <h2 className="text-start mt-5">This is an FAQ page</h2>
+        <section className="faq-section container-fluid px-md-4 px-sm-4 px-3 py-5">
+            <h2 className="text-center mt-5">This is an FAQ page</h2>
         </section>
 
         <ClientFooter/>
