@@ -7,7 +7,7 @@ const Faqs = () => {
         <ClientNavbar/>
 
         <section className="faq-section container-fluid px-md-4 px-sm-4 px-3 py-5">
-            <h2 className="text-center mt-5">This is an FAQ page</h2>
+            <h2 className="text-center mt-5">FREQUENTLY ASKED QUESTIONS (FAQs)</h2>
         </section>
 
         <ClientFooter/>
