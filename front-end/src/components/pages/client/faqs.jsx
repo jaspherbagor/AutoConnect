@@ -7,8 +7,8 @@ const Faqs = () => {
       <ClientNavbar />
 
       <section className="faq-section container-fluid px-md-4 px-sm-4 px-3 py-5">
-        <h2 className="text-center mt-5 mb-4">FREQUENTLY ASKED QUESTIONS (FAQs)</h2>
-        <div className="col-md-8 col-sm-8 col-12">
+        <h2 className="text-center mt-5 mb-5">FREQUENTLY ASKED QUESTIONS (FAQs)</h2>
+        <div className="col-md-10 col-sm-10 col-12 align-items-center justify-content-centerm container-fluid">
           <div class="accordion" id="accordionPanelsStayOpenExample">
             <div class="accordion-item">
               <h2 class="accordion-header">
