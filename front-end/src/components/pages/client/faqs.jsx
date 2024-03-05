@@ -113,7 +113,7 @@ const Faqs = () => {
 
             <div class="accordion-item">
               <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq-Nine" aria-expanded="true" aria-controls="faq-Nine">
+                <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq-Nine" aria-expanded="true" aria-controls="faq-Nine">
                   Accordion Item #1
                 </button>
               </h2>
@@ -126,7 +126,7 @@ const Faqs = () => {
 
             <div class="accordion-item">
               <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq-Ten" aria-expanded="true" aria-controls="faq-Ten">
+                <button class="accordion-button fw-medium" type="button" data-bs-toggle="collapse" data-bs-target="#faq-Ten" aria-expanded="true" aria-controls="faq-Ten">
                   Accordion Item #1
                 </button>
               </h2>
