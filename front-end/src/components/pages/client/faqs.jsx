@@ -52,7 +52,7 @@ const Faqs = () => {
                   4. What sets AUTOCONNECT apart from traditional automotive service providers?
                 </button>
               </h2>
-              <div id="faq-Four" class="accordion-collapse collapse show">
+              <div id="faq-Four" class="accordion-collapse collapse">
                 <div class="accordion-body text-start">
                   <p>AUTOCONNECT distinguishes itself through the innovative Doorstep - Pickup & Drop service, bringing the workshop to your doorstep. This eliminates the hassle of traditional service models, offering unmatched convenience.</p>
                 </div>
@@ -65,7 +65,7 @@ const Faqs = () => {
                   5. Are your technicians certified and experienced?
                 </button>
               </h2>
-              <div id="faq-Five" class="accordion-collapse collapse show">
+              <div id="faq-Five" class="accordion-collapse collapse">
                 <div class="accordion-body text-start">
                   <p>Absolutely! Our technicians are not only certified professionals but also have extensive experience in the automotive industry. You can trust that your vehicle is in capable hands.</p>
                 </div>
@@ -78,7 +78,7 @@ const Faqs = () => {
                   6. How do you ensure the quality of your services?
                 </button>
               </h2>
-              <div id="faq-Six" class="accordion-collapse collapse show">
+              <div id="faq-Six" class="accordion-collapse collapse">
                 <div class="accordion-body text-start">
                   <p>Quality is our priority. We employ cutting-edge technology, adhere to industry best practices, and conduct thorough inspections to ensure the highest standard of maintenance and repairs.</p>
                 </div>
@@ -91,7 +91,7 @@ const Faqs = () => {
                   7. What sustainability initiatives does AUTOCONNECT undertake?
                 </button>
               </h2>
-              <div id="faq-Seven" class="accordion-collapse collapse show">
+              <div id="faq-Seven" class="accordion-collapse collapse">
                 <div class="accordion-body text-start">
                   <p>AUTOCONNECT is committed to eco-friendly practices. From energy-efficient equipment to responsible product usage, we minimize our environmental impact, contributing to a healthier planet for future generations.</p>
                 </div>
@@ -104,7 +104,7 @@ const Faqs = () => {
                   8. Can I get a cost estimate before the service?
                 </button>
               </h2>
-              <div id="faq-Eight" class="accordion-collapse collapse show">
+              <div id="faq-Eight" class="accordion-collapse collapse">
                 <div class="accordion-body text-start">
                   <p>Yes, you can! We provide transparent pricing. Feel free to request a cost estimate during the booking process or contact our customer service for detailed information on the expected costs of your specific service.</p>
                 </div>
@@ -117,7 +117,7 @@ const Faqs = () => {
                   9. Do you offer any warranty on your services?
                 </button>
               </h2>
-              <div id="faq-Nine" class="accordion-collapse collapse show">
+              <div id="faq-Nine" class="accordion-collapse collapse">
                 <div class="accordion-body text-start">
                   <p>Yes, we stand by the quality of our services. AUTOCONNECT provides a warranty on certain repairs and services. Details regarding warranties will be discussed during the service booking and consultation process.</p>
                 </div>
@@ -130,7 +130,7 @@ const Faqs = () => {
                   10. How can I provide feedback or address concerns about my service experience?
                 </button>
               </h2>
-              <div id="faq-Ten" class="accordion-collapse collapse show">
+              <div id="faq-Ten" class="accordion-collapse collapse">
                 <div class="accordion-body text-start">
                   <p>We value your feedback! You can provide your thoughts through our online feedback form on the website, or you can contact our customer service directly. We are committed to continuous improvement and ensuring your satisfaction.</p>
                 </div>
