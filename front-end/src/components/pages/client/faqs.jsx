@@ -36,19 +36,19 @@ const Faqs = () => {
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-Three" aria-expanded="false" aria-controls="faq-Three">
-                  Accordion Item #3
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq-Three" aria-expanded="false" aria-controls="faq-Three">
+                  3. How can I schedule a service with AUTOCONNECT?
                 </button>
               </h2>
               <div id="faq-Three" class="accordion-collapse collapse">
                 <div class="accordion-body text-start">
-                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  <p>Scheduling a service with us is easy! Simply visit our website or give us a call to book an appointment. You can also use our online platform to schedule the Doorstep - Pickup & Drop service at your preferred time.</p>
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq-Four" aria-expanded="true" aria-controls="faq-Four">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq-Four" aria-expanded="true" aria-controls="faq-Four">
                   Accordion Item #1
                 </button>
               </h2>
