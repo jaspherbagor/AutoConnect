@@ -61,13 +61,13 @@ const Faqs = () => {
 
             <div class="accordion-item">
               <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq-Five" aria-expanded="true" aria-controls="faq-Five">
-                  Accordion Item #1
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq-Five" aria-expanded="true" aria-controls="faq-Five">
+                  5. Are your technicians certified and experienced?
                 </button>
               </h2>
               <div id="faq-Five" class="accordion-collapse collapse show">
                 <div class="accordion-body text-start">
-                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  <p>Absolutely! Our technicians are not only certified professionals but also have extensive experience in the automotive industry. You can trust that your vehicle is in capable hands.</p>
                 </div>
               </div>
             </div>
