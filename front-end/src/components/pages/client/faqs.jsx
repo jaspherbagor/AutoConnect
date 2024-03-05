@@ -24,13 +24,13 @@ const Faqs = () => {
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-Two" aria-expanded="false" aria-controls="faq-Two">
-                  Accordion Item #2
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq-Two" aria-expanded="false" aria-controls="faq-Two">
+                  2. What types of automotive services does AUTOCONNECT provide?
                 </button>
               </h2>
               <div id="faq-Two" class="accordion-collapse collapse">
                 <div class="accordion-body text-start">
-                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  <p>AUTOCONNECT offers a comprehensive range of automotive services, including regular maintenance, repairs, diagnostics, and more. Our skilled technicians are equipped to handle various issues to keep your vehicle in top condition.</p>
                 </div>
               </div>
             </div>
