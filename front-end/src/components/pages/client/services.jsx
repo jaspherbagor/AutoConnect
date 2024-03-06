@@ -12,21 +12,36 @@ const Services = () => {
               <div className="row d-flex align-items-center justify-content-center mt-5">
                 <div className="col-lg-3 col-md-4 col-sm-4 col-12">
                   <div className="card">
-                    <img src="../images/car_detailing.png" class="card-img-top img-fluid" alt="..."/>
+                    <img src="../images/car_detailing.png" className="card-img-top img-fluid" alt="..."/>
                     <div className="card-body">
                       <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                   </div>
                 </div>
                 <div className="col-lg-3 col-md-4 col-sm-4 col-12">
-
-                </div>
+                  <div className="card">
+                      <img src="../images/car_detailing.png" className="card-img-top img-fluid" alt="..."/>
+                      <div className="card-body">
+                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                    </div>
+                  </div>
                 <div className="col-lg-3 col-md-4 col-sm-4 col-12">
-
-                </div>
+                  <div className="card">
+                      <img src="../images/car_detailing.png" className="card-img-top img-fluid" alt="..."/>
+                      <div className="card-body">
+                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                    </div>
+                  </div>
                 <div className="col-lg-3 col-md-4 col-sm-4 col-12">
-                  
-                </div>
+                  <div className="card">
+                      <img src="../images/car_detailing.png" className="card-img-top img-fluid" alt="..."/>
+                      <div className="card-body">
+                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                    </div>
+                  </div>
               </div>
             </section>
         <ClientFooter />
