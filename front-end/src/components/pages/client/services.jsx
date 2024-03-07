@@ -1,7 +1,7 @@
 import React from 'react'
 import ClientNavbar from '../../layouts/client/navbar';
 import ClientFooter from '../../layouts/client/footer';
-
+import '../../styles/client/services.css'
 
 const Services = () => {
   return (
