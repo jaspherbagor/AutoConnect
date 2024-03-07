@@ -27,7 +27,11 @@ html, body {
     --font-family: 'Inter', sans-serif;
 }
 
-
 .services-body {
     height: 100px
+}
+
+.service-card:hover .card-body .card-title {
+    color: var(--primary-color) !important;
+    border-bottom: 2px solid var(--primary-color);
 }
