@@ -22,16 +22,16 @@ const Services = () => {
                 <div className="col-lg-3 col-md-4 col-sm-6 col-12">
                   <div className="card mb-4">
                       <img src="../images/car_detailing.png" className="card-img-top img-fluid" alt="..."/>
-                      <div className="card-body">
-                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <div className="card-body py-3">
+                        <a className="card-text text-center fs-4 text-black text-decoration-none fw-bold">DOORSTEP SERVICES</a>
                       </div>
                     </div>
                   </div>
                 <div className="col-lg-3 col-md-4 col-sm-6 col-12">
                   <div className="card mb-4">
                       <img src="../images/car_detailing.png" className="card-img-top img-fluid" alt="..."/>
-                      <div className="card-body">
-                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <div className="card-body py-3">
+                        <a className="card-text text-center fs-4 text-black text-decoration-none fw-bold">PERIODIC SERVICES</a>
                       </div>
                     </div>
                   </div>
