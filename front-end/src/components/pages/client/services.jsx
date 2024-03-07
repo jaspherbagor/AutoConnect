@@ -6,7 +6,7 @@ const Services = () => {
   return (
     <div>
         <ClientNavbar />
-            <section className="container-fluid px-md-4 px-sm-4 px-3 py-5">
+            <section className="container-fluid px-md-4 px-sm-4 px-3 py-5 col-md-11 col-sm-11 col-12">
               <h2 className="pt-5 fw-bolder text-center">SERVICES</h2>
               <p className="text-center">Doorstep - Pickup & Drop</p>
 
