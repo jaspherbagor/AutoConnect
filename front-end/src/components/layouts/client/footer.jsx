@@ -16,7 +16,7 @@ const ClientFooter = () => {
               <Link to="/contact" className="text-decoration-none text-white footer-link">
                 <p className="footer-link">Contact Us</p>
               </Link>
-              <Link to="" className="text-decoration-none text-white footer-link">
+              <Link to="/faqs" className="text-decoration-none text-white footer-link">
                 <p className="footer-link">FAQs</p>
               </Link>
               <Link href="" className="text-decoration-none text-white footer-link">
