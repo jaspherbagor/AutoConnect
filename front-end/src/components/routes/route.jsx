@@ -23,6 +23,10 @@ const RouteWay = () => {
             <Route path="/contact" element={<Contact/>} />
             <Route path="/login" element={<Login/>} />
             <Route path="/register" element={<Register />} />
+            {/* Services Start */}
+            <Route path="/periodic-services" element={<periodicServices/>} />
+            {/* Services End */}
+
             {/* Client Routes End */}
         </Routes>
     </div>
