@@ -7,6 +7,10 @@ import Faqs from '../pages/client/faqs';
 import Contact from '../pages/client/contact';
 import Login from '../pages/client/login';
 import Register from '../pages/client/register';
+//services
+
+
+
 const RouteWay = () => {
   return (
     <div>

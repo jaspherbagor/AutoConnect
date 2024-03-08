@@ -1,9 +1,14 @@
 import React from 'react'
-
-const periodicservices = () => {
+import ClientNavbar from '../../../layouts/client/navbar';
+import ClientFooter from '../../../layouts/client/footer';
+const periodicServices = () => {
   return (
-    <div>periodic-services</div>
+    <div>
+        <section className="container-fluid px-md-4 px-sm-4 px-3 py-5">
+            
+        </section>
+    </div>
   )
 }
 
-export default periodic-services
+export default periodicServices
