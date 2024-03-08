@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import ClientNavbar from '../../layouts/client/navbar';
 import ClientFooter from '../../layouts/client/footer';
 import '../../styles/client/home.css';
@@ -147,9 +148,9 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="text-center mt-4">
-                        <a href="">
+                        <Link to="/services">
                             <button className="btn btn-danger px-3 py-3 fw-semibold more-services-btn">VIEW MORE</button>
-                        </a>
+                        </Link>
                     </div>
                 </div>
 
