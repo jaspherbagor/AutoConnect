@@ -8,7 +8,7 @@ import Contact from '../pages/client/contact';
 import Login from '../pages/client/login';
 import Register from '../pages/client/register';
 //services
-
+import periodicServices from '../pages/client/services/periodic-services';
 
 
 const RouteWay = () => {
