@@ -1,9 +1,10 @@
 import React from 'react'
-
-const doorstepservices = () => {
+import ClientNavbar from './../../../layouts/client/navbar';
+import ClientFooter from '../../../layouts/client/footer';
+const doorstepServices = () => {
   return (
     <div>doorstep-services</div>
   )
 }
 
-export default doorstep-services
+export default doorstepServices
