@@ -59,7 +59,7 @@ const Services = () => {
                   <div className="card service-card mb-4">
                       <img src="../images/car_detailing.png" className="card-img-top img-fluid" alt="..."/>
                       <div className="card-body services-body py-3">
-                        <a className="card-title text-center fs-4 text-black text-decoration-none fw-bold">AC Service & Repair</a>
+                        <a className="card-title text-center fs-4 text-black text-decoration-none">AC Service & Repair</a>
                       </div>
                     </div>
                   </div>
@@ -67,7 +67,7 @@ const Services = () => {
                   <div className="card service-card mb-4">
                       <img src="../images/car_detailing.png" className="card-img-top img-fluid" alt="..."/>
                       <div className="card-body services-body py-3">
-                        <a className="card-title text-center fs-4 text-black text-decoration-none fw-bold">Car Detailing Services</a>
+                        <a className="card-title text-center fs-4 text-black text-decoration-none">Car Detailing Services</a>
                       </div>
                     </div>
                   </div>
@@ -75,7 +75,7 @@ const Services = () => {
                   <div className="card service-card mb-4">
                       <img src="../images/car_detailing.png" className="card-img-top img-fluid" alt="..."/>
                       <div className="card-body services-body py-3">
-                        <a className="card-title text-center fs-4 text-black text-decoration-none fw-bold">Car Major Repairs</a>
+                        <a className="card-title text-center fs-4 text-black text-decoration-none">Car Major Repairs</a>
                       </div>
                     </div>
                   </div>
@@ -86,7 +86,7 @@ const Services = () => {
                   <div className="card service-card mb-4">
                     <img src="../images/car_detailing.png" className="card-img-top img-fluid" alt="..."/>
                     <div className="card-body services-body py-3">
-                      <a className="card-title text-center fs-4 text-black text-decoration-none fw-bold">Suspension Repairs</a>
+                      <a className="card-title text-center fs-4 text-black text-decoration-none">Suspension Repairs</a>
                     </div>
                   </div>
                 </div>
@@ -94,7 +94,7 @@ const Services = () => {
                   <div className="card service-card mb-4">
                     <img src="../images/car_detailing.png" className="card-img-top img-fluid" alt="..."/>
                     <div className="card-body services-body py-3">
-                      <a className="card-title text-center fs-4 text-black text-decoration-none fw-bold">Clutch Repair</a>
+                      <a className="card-title text-center fs-4 text-black text-decoration-none">Clutch Repair</a>
                     </div>
                   </div>
                 </div>
@@ -102,7 +102,7 @@ const Services = () => {
                   <div className="card service-card mb-4">
                       <img src="../images/car_detailing.png" className="card-img-top img-fluid" alt="..."/>
                       <div className="card-body services-body py-3">
-                        <a className="card-title text-center fs-4 text-black text-decoration-none fw-bold">Tires and Wheels</a>
+                        <a className="card-title text-center fs-4 text-black text-decoration-none">Tires and Wheels</a>
                       </div>
                     </div>
                   </div>
@@ -110,7 +110,7 @@ const Services = () => {
                   <div className="card service-card mb-4">
                     <img src="../images/car_detailing.png" className="card-img-top img-fluid" alt="..."/>
                     <div className="card-body services-body py-3">
-                      <a className="card-title text-center fs-4 text-black text-decoration-none fw-bold">Insurance Claims</a>
+                      <a className="card-title text-center fs-4 text-black text-decoration-none">Insurance Claims</a>
                     </div>
                   </div>
                 </div>
@@ -121,7 +121,7 @@ const Services = () => {
                   <div className="card service-card mb-4">
                     <img src="../images/car_detailing.png" className="card-img-top img-fluid" alt="..."/>
                     <div className="card-body services-body py-3">
-                      <a className="card-title text-center fs-4 text-black text-decoration-none fw-bold">Windshield and Lights</a>
+                      <a className="card-title text-center fs-4 text-black text-decoration-none">Windshield and Lights</a>
                     </div>
                   </div>
                 </div>
@@ -129,7 +129,7 @@ const Services = () => {
                   <div className="card service-card mb-4">
                       <img src="../images/car_detailing.png" className="card-img-top img-fluid" alt="..."/>
                       <div className="card-body services-body py-3">
-                        <a className="card-title text-center fs-4 text-black text-decoration-none fw-bold">Membership</a>
+                        <a className="card-title text-center fs-4 text-black text-decoration-none">Membership</a>
                       </div>
                     </div>
                   </div>
