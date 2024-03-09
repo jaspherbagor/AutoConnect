@@ -8,7 +8,7 @@ import Contact from '../pages/client/contact';
 import Login from '../pages/client/login';
 import Register from '../pages/client/register';
 //services
-import periodicServices from '../pages/client/services/periodic-services';
+import periodicServices from './../pages/client/services/periodic-services';
 
 
 const RouteWay = () => {
@@ -24,7 +24,7 @@ const RouteWay = () => {
             <Route path="/login" element={<Login/>} />
             <Route path="/register" element={<Register />} />
             {/* Services Start */}
-            <Route path="/periodic-services" element={<periodicServices/>} />
+            <Route path="/services/periodic-services" element={<periodicServices />} />
             {/* Services End */}
 
             {/* Client Routes End */}
