@@ -16,7 +16,7 @@ const Services = () => {
                   <div className="card service-card mb-4">
                     <img src="../images/car_detailing.png" className="card-img-top img-fluid" alt="..."/>
                     <div className="card-body services-body py-3">
-                      <a className="card-title text-center fs-4 text-black text-decoration-none fw-bold">Periodic Services</a>
+                      <a className="card-title text-center fs-4 text-black text-decoration-none">Periodic Services</a>
                     </div>
                   </div>
                 </div>
@@ -24,7 +24,7 @@ const Services = () => {
                   <div className="card service-card mb-4">
                       <img src="../images/car_detailing.png" className="card-img-top img-fluid" alt="..."/>
                       <div className="card-body services-body py-3">
-                        <a className="card-title text-center fs-4 text-black text-decoration-none fw-bold">Doorstep Services</a>
+                        <a className="card-title text-center fs-4 text-black text-decoration-none">Doorstep Services</a>
                       </div>
                     </div>
                   </div>
@@ -32,7 +32,7 @@ const Services = () => {
                   <div className="card service-card mb-4">
                       <img src="../images/car_detailing.png" className="card-img-top img-fluid" alt="..."/>
                       <div className="card-body services-body py-3">
-                        <a className="card-title text-center fs-4 text-black text-decoration-none fw-bold">Denting & Painting</a>
+                        <a className="card-title text-center fs-4 text-black text-decoration-none">Denting & Painting</a>
                       </div>
                     </div>
                   </div>
@@ -40,7 +40,7 @@ const Services = () => {
                   <div className="card service-card mb-4">
                       <img src="../images/car_detailing.png" className="card-img-top img-fluid" alt="..."/>
                       <div className="card-body services-body py-3">
-                        <a className="card-title text-center fs-4 text-black text-decoration-none fw-bold">Brake Repairs</a>
+                        <a className="card-title text-center fs-4 text-black text-decoration-none">Brake Repairs</a>
                       </div>
                     </div>
                   </div>
@@ -51,7 +51,7 @@ const Services = () => {
                   <div className="card service-card mb-4">
                     <img src="../images/car_detailing.png" className="card-img-top img-fluid" alt="..."/>
                     <div className="card-body services-body py-3">
-                      <a className="card-title text-center fs-4 text-black text-decoration-none fw-bold">Battery Replacement</a>
+                      <a className="card-title text-center fs-4 text-black text-decoration-none">Battery Replacement</a>
                     </div>
                   </div>
                 </div>
