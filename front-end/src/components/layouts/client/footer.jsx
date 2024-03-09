@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const ClientFooter = () => {
   return (
     <div>
-        <section className="footer container-fluid px-md-4 px-sm-4 px-2 py-5 bg-black">
+        <section className="footer container-fluid px-md-4 px-sm-4 px-2 py-5">
           <div className="row">
             <div className="col-lg-2 col-md-4 col-sm-6 col-12 text-lg-start text-md-start text-sm-start text-center d-flex justify-content-center align-items-center">
               <Link to="/">

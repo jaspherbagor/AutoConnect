@@ -24,9 +24,14 @@ html, body {
     --text-color-light: #fff;
     --text-color-dark: #000;
     --grayish-color: #f1f1f1;
+    --footer-bg: #333333;
     --font-family: 'Inter', sans-serif;
 }
 
 .footer-link:hover {
     color:var(--primary-color) !important
+}
+
+.footer {
+    background: var(--footer-bg)
 }
