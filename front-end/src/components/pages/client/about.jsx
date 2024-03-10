@@ -10,7 +10,10 @@ const About = () => {
         <section className="about-section container-fluid px-md-4 px-sm-4 px-3 py-5">
 
             <h2 className="fw-bolder text-center mt-5 pt-4">ABOUT <span>AUTOCONNECT</span></h2>
-            <p className="text-center lead mt-5">Founded in November 2023 by visionary entrepreneur Ronaldo Tarroza, AUTO CONNECT stands as a testament to a commitment to redefine the landscape of the automotive service industry in the Philippines. Our core mission is rooted in the desire to streamline the experience for discerning car owners seeking top-notch mechanical expertise. AUTO CONNECT introduces a pioneering methodology to automotive care with its innovative Doorstep - Pickup & Drop service.</p>
+            <div className="col-md-10 col-sm-10 col-12 justify-content-center align-items-center d-flex container">
+              <p className="text-center lead mt-4">Founded in November 2023 by visionary entrepreneur Ronaldo Tarroza, AUTO CONNECT stands as a testament to a commitment to redefine the landscape of the automotive service industry in the Philippines. Our core mission is rooted in the desire to streamline the experience for discerning car owners seeking top-notch mechanical expertise. AUTO CONNECT introduces a pioneering methodology to automotive care with its innovative Doorstep - Pickup & Drop service.</p>
+            </div>
+           
 
             <div className="row text-center">
               <h2 className="fw-bolder mt-5 mb-5">CORE <span>VALUES</span></h2>
