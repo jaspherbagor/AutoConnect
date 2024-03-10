@@ -35,7 +35,9 @@ const About = () => {
             </div>
 
             <h2 className="fw-bolder text-center mt-5 mb-4">OUR <span>MISSION</span></h2>
-            <p>At AUTOCONNECT, our mission is to redefine the automotive service experience in the Philippines. We are committed to delivering unparalleled convenience, expertise, and sustainability through innovative solutions, ensuring every customer enjoys a seamless and reliable journey on the road.</p>
+            <div className="d-flex align-items-center justify-content-center container col-md-10 col-sm-10 col-12">
+              <p className="about-detail">At AUTOCONNECT, our mission is to redefine the automotive service experience in the Philippines. We are committed to delivering unparalleled convenience, expertise, and sustainability through innovative solutions, ensuring every customer enjoys a seamless and reliable journey on the road.</p>
+            </div>
 
             <h2 className="fw-bolder text-center mt-5 mb-4">OUR <span>VISION</span></h2>
             <div className="d-flex align-items-center justify-content-center container col-md-10 col-sm-10 col-12">
