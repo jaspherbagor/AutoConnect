@@ -30,3 +30,8 @@ html, body {
 .core-values-icon {
     color: var(--primary-color)
 }
+
+.about-detail {
+    font-size: 18px !important;
+    line-height: 150% !important
+}
