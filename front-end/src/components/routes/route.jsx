@@ -25,6 +25,7 @@ const RouteWay = () => {
             <Route path="/register" element={<Register />} />
             {/* Services Start */}
             <Route path="/services/periodic-services" element={<periodicServices />} />
+          {/*<Route path ="/services/doorstep-services"*/}
             {/* Services End */}
 
             {/* Client Routes End */}
