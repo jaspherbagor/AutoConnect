@@ -1,7 +1,7 @@
 import React from 'react'
 import ClientNavbar from '../../../layouts/client/navbar';
 import ClientFooter from '../../../layouts/client/footer';
-const periodicServices = () => {
+const PeriodicServices = () => {
   return (
     <div>
         <ClientNavbar/>
@@ -13,4 +13,4 @@ const periodicServices = () => {
   )
 }
 
-export default periodicServices;
+export default PeriodicServices;
