@@ -127,7 +127,7 @@ const Services = () => {
                 </div>
                 <div className="col-lg-3 col-md-4 col-sm-6 col-12">
                   <div className="card service-card mb-4">
-                      <img src="../images/car_detailing.png" className="card-img-top img-fluid" alt="..."/>
+                      <img src="../images/membership.svg" className="card-img-top img-fluid" alt="..."/>
                       <div className="card-body services-body py-3">
                         <a className="card-title text-center fs-4 text-black text-decoration-none">Membership</a>
                       </div>
