@@ -25,4 +25,15 @@ html, body {
     --text-color-dark: #000;
     --grayish-color: #f1f1f1;
     --font-family: 'Inter', sans-serif;
-} 
+}
+
+.periodic-services-card {
+    border: 1.4px solid var(--text-color-dark);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    cursor: pointer;
+}
+
+.periodic-services-card:hover {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}

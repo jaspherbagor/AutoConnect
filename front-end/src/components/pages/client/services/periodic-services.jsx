@@ -18,7 +18,7 @@ const PeriodicServices = () => {
                       </div>
                       <h5 class="card-title">Basic Car Service</h5>
                       <h6 class="card-subtitle mb-4 text-body-secondary mt-3">Performed at Workshop + Free Pickup & Drop Available</h6>
-                      <div className="align-items-center justify-content-center">
+                      <div className="align-items-center justify-content-center mb-4">
                         <p class="card-text text-start ms-3">
                           <i class="bi bi-check2-square fs-5"></i> Engine Oil Replacement
                         </p>
