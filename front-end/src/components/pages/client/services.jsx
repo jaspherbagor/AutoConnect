@@ -17,7 +17,7 @@ const Services = () => {
                   <div className="card service-card mb-4">
                     <img src="../images/periodic-services.svg" className="card-img-top img-fluid" alt="..."/>
                     <div className="card-body services-body py-3">
-                      <Link className="card-title text-center fs-4 text-black text-decoration-none">Periodic Services</Link>
+                      <Link to="/services/periodic-services" className="card-title text-center fs-4 text-black text-decoration-none">Periodic Services</Link>
                     </div>
                   </div>
                 </div>
