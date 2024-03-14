@@ -14,9 +14,9 @@ const PeriodicServices = () => {
                   <div class="card periodic-services-card mb-4">
                     <div class="card-body">
                       <div className="text-center mb-3 mt-2">
-                        <i class="bi bi-wrench display-2"></i>
+                        <i class="bi bi-wrench display-2 card-icon"></i>
                       </div>
-                      <h5 class="card-title">Basic Car Service</h5>
+                      <h3 class="card-title">Basic Car Service</h3>
                       <h6 class="card-subtitle mb-4 text-body-secondary mt-3">Performed at Workshop + Free Pickup & Drop Available</h6>
                       <div className="align-items-center justify-content-center mb-4">
                         <p class="card-text text-start ms-3">
@@ -60,8 +60,8 @@ const PeriodicServices = () => {
                         </p>
                       </div>
                       
-                      <a href="#" class="card-link btn btn-success add-to-cart-btn">Add to Cart</a>
-                      <a href="#" class="card-link btn btn-success buy-now-btn">Buy Now</a>
+                      <a href="#" class="card-link btn btn-success add-to-cart-btn fw-semibold">Add to Cart</a>
+                      {/* <a href="#" class="card-link btn btn-success buy-now-btn">Buy Now</a> */}
                     </div>
                   </div>
                 </div>
