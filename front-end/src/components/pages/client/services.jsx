@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 import ClientNavbar from '../../layouts/client/navbar';
 import ClientFooter from '../../layouts/client/footer';
 import '../../styles/client/services.css'
@@ -16,7 +17,7 @@ const Services = () => {
                   <div className="card service-card mb-4">
                     <img src="../images/periodic-services.svg" className="card-img-top img-fluid" alt="..."/>
                     <div className="card-body services-body py-3">
-                      <a className="card-title text-center fs-4 text-black text-decoration-none">Periodic Services</a>
+                      <Link className="card-title text-center fs-4 text-black text-decoration-none">Periodic Services</Link>
                     </div>
                   </div>
                 </div>
